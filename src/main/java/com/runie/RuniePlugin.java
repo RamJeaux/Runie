@@ -262,6 +262,12 @@ public class RuniePlugin extends Plugin
 		};
 		stateStore.addLoadListener(stateLoadListener);
 
+		// If Runie was enabled mid-session (already logged in, no fresh login and
+		// no XP tick yet), bind + load the account state NOW so the collection
+		// shows immediately instead of appearing empty until the next XP gain.
+		// Loading is safe; XP attribution stays gated by the guards this arms.
+		xpDeltaService.ensureAccountBound();
+
 		animationService.refresh();
 		log.debug("Runie started: {} creature lines registered", creatureRegistry.size());
 	}
@@ -315,6 +321,7 @@ public class RuniePlugin extends Plugin
 			xpDeltaService.handleGameStateChanged(gs);
 			if (gs == GameState.LOGGED_IN)
 			{
+				xpDeltaService.ensureAccountBound(); // bind/load promptly; StatChanged stays the backstop
 				animationService.refresh(); // account switch may change companion
 				if (panel != null)
 				{

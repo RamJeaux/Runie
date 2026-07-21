@@ -243,6 +243,44 @@ public class XpDeltaServiceTest
 		assertFalse(store.hasState()); // no account was ever bound
 	}
 
+	// -- mid-session enable: collection must load without waiting for an XP tick --
+
+	@Test
+	public void ensureAccountBoundLoadsStateWhenLoggedInMidSession()
+	{
+		// plugin enabled while already logged in: no login events, no XP tick yet
+		accountHash = HASH_A;
+		assertFalse(store.hasState());
+		xp.ensureAccountBound();
+		assertTrue("state must load immediately on mid-session enable", store.hasState());
+		assertEquals(HASH_A, store.getAccountHash());
+	}
+
+	@Test
+	public void ensureAccountBoundNoOpsWhenLoggedOut()
+	{
+		accountHash = AccountContext.NO_ACCOUNT;
+		xp.ensureAccountBound();
+		assertFalse(store.hasState());
+	}
+
+	@Test
+	public void ensureAccountBoundKeepsLoginBurstSnapshotSafe()
+	{
+		// binding early must NOT defeat the login-dump guard: it arms sentinels+grace
+		accountHash = HASH_A;
+		xp.ensureAccountBound();
+		loginBurst(13_034_431);   // a maxed account's lifetime XP streams in
+		warmUp();
+		assertTrue("early bind must keep the login burst snapshot-only", received.isEmpty());
+		assertEquals(0, eggs.getEggBalance());
+
+		// genuine post-warmup gain still flows normally
+		stat(Skill.ATTACK, 13_034_431 + 30_000);
+		assertEquals(1, received.size());
+		assertEquals(30_000, received.get(0)[1]);
+	}
+
 	// -- prompt in-session accrual (timing/sync bug regression tests) -----
 
 	@Test

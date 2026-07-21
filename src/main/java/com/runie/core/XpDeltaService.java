@@ -146,11 +146,7 @@ public class XpDeltaService
 		{
 			// Account switched under us: swap the state file BEFORE any attribution,
 			// and NEVER carry snapshots across accounts.
-			trackedAccountHash = hash;
-			stateStore.switchAccount(hash);
-			Arrays.fill(cachedXp, -1);
-			graceTicksRemaining = GRACE_TICKS;
-			awaitingLoginGrace = false;                      // this IS the (re)bind; grace just started
+			bindAccount(hash);
 		}
 
 		int idx = e.getSkill().ordinal();
@@ -180,6 +176,38 @@ public class XpDeltaService
 		for (XpDeltaListener l : listeners)
 		{
 			l.onXpGained(e.getSkill(), delta, newXp);
+		}
+	}
+
+	/**
+	 * Bind the account state file for {@code hash} and arm the login guards.
+	 * Loading state is always safe; XP attribution stays gated by the freshly
+	 * armed per-skill sentinels + grace window set here — so a bind never risks
+	 * the login-snapshot windfall, no matter when it happens.
+	 */
+	private void bindAccount(long hash)
+	{
+		trackedAccountHash = hash;
+		stateStore.switchAccount(hash);                      // loads state-<hash>.json (fires StateLoadListener)
+		Arrays.fill(cachedXp, -1);                           // nothing trusted until re-snapshotted
+		graceTicksRemaining = GRACE_TICKS;
+		awaitingLoginGrace = false;                          // this IS the (re)bind; grace just started
+	}
+
+	/**
+	 * Bind + load the current account's state immediately when we're logged in
+	 * with a real account but haven't bound yet — e.g. the plugin was enabled
+	 * mid-session (no fresh login, no XP tick yet) or right after LOGGED_IN
+	 * before the first StatChanged. Without this, the collection/panel showed
+	 * empty until the next XP gain reloaded the file. No-ops when logged out or
+	 * already bound; the StatChanged path remains the backstop.
+	 */
+	public void ensureAccountBound()
+	{
+		long hash = accountContext.accountHash();
+		if (hash != AccountContext.NO_ACCOUNT && hash != trackedAccountHash)
+		{
+			bindAccount(hash);
 		}
 	}
 

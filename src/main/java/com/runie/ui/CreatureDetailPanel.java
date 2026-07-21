@@ -389,11 +389,16 @@ class CreatureDetailPanel extends JPanel
 	{
 		String safe = text == null ? "" : text
 			.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;");
-		JLabel l = new JLabel("<html><div style='width:210px; text-align:center;'>" + safe + "</div></html>");
+		// Wrap width sits comfortably inside the usable area (PluginPanel 225px −
+		// panel/tab/scroll insets − the as-needed vertical scrollbar) so the
+		// paragraph never runs past the right edge.
+		JLabel l = new JLabel("<html><div style='width:176px; text-align:center;'>" + safe + "</div></html>");
 		l.setAlignmentX(CENTER_ALIGNMENT);
 		l.setFont(new Font(Font.SANS_SERIF, Font.PLAIN, 11));
 		l.setForeground(new Color(200, 205, 212));
-		l.setMaximumSize(new Dimension(224, 400));
+		// Cap the max to the wrapped preferred size — otherwise BoxLayout stretches
+		// the label into a tall block and the short paragraph floats with big gaps.
+		l.setMaximumSize(l.getPreferredSize());
 		return l;
 	}
 
