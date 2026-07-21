@@ -99,20 +99,48 @@ public class AssetManifestTest
 	}
 
 	@Test
-	public void everyManifestTargetResolvesOnTheClasspath()
+	public void downloadIndexCoversWholeRosterIdleArt()
 	{
-		// real art (Grubnak) or marked placeholder tile — never a hole
-		for (int i = 0; i < entries.size(); i++)
+		// Art no longer ships in the jar (10 MB Plugin Hub limit) — it streams from
+		// the repo's assets branch via RunieAssetService. Lock that the bundled
+		// download index (art_index.json) covers an idle sheet for EVERY roster
+		// line × style × stage, so nothing is left un-fetchable.
+		JsonObject idx;
+		try (InputStream in = AssetManifestTest.class.getResourceAsStream("/com/runie/art_index.json");
+			Reader r = new InputStreamReader(in, StandardCharsets.UTF_8))
 		{
-			JsonObject e = entries.get(i).getAsJsonObject();
-			String rp = "/" + e.get("resourcePath").getAsString();
-			try (InputStream in = AssetManifestTest.class.getResourceAsStream(rp))
+			assertNotNull("art_index.json missing from resources", in);
+			idx = new Gson().fromJson(r, JsonObject.class);
+		}
+		catch (Exception ex)
+		{
+			throw new AssertionError("failed reading art index", ex);
+		}
+
+		String base = idx.get("base").getAsString();
+		assertTrue("index base must be an https github URL: " + base,
+			base.startsWith("https://") && base.contains("github"));
+		assertTrue("index needs a version", idx.get("version").getAsInt() >= 1);
+		JsonArray files = idx.getAsJsonArray("files");
+		assertTrue("index must list art files", files.size() > 0);
+
+		Set<String> paths = new HashSet<>();
+		for (int i = 0; i < files.size(); i++)
+		{
+			paths.add(files.get(i).getAsString());
+		}
+
+		for (CreatureDefinition def : registry.all())
+		{
+			for (String style : new String[]{"kawaii", "pixel"})
 			{
-				assertNotNull("manifest target missing from resources: " + rp, in);
-			}
-			catch (Exception ex)
-			{
-				throw new AssertionError("failed reading " + rp, ex);
+				for (int stage = 1; stage <= 3; stage++)
+				{
+					String prefix = "com/runie/creatures/" + def.getId()
+						+ "/art/" + style + "/stage" + stage + "/idle/idle.";
+					boolean found = paths.stream().anyMatch(p -> p.startsWith(prefix));
+					assertTrue("download index missing idle art: " + prefix, found);
+				}
 			}
 		}
 	}

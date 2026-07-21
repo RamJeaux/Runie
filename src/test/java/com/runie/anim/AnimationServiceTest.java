@@ -43,6 +43,7 @@ public class AnimationServiceTest
 	private static final long HASH = 606L;
 
 	private Path dir;
+	private Path artCache;
 	private ScheduledExecutorService executor;
 	private CreatureRegistry registry;
 	private RunieStateStore store;
@@ -58,14 +59,23 @@ public class AnimationServiceTest
 		executor = Executors.newSingleThreadScheduledExecutor();
 		registry = new CreatureRegistry(new Gson());
 		registry.load();
+		artCache = com.runie.support.TestArt.roster(registry);
 		store = TestStateStores.create(new Gson(), executor, registry, dir);
 		store.switchAccount(HASH);
 		progression = new ProgressionService(store, registry, new com.runie.core.EggService(store, new FakeClock(1_000_000L)));
 		clock = new FakeClock(1_000_000L);
 		config = new TestRunieConfig();
 		// direct executor: refresh() decodes synchronously in tests
-		anim = new AnimationService(new AssetLoader(), unlockedStyles(), progression, config, clock,
+		anim = new AnimationService(newLoader(), unlockedStyles(), progression, config, clock,
 			Runnable::run);
+	}
+
+	/** AssetLoader pointed at the seeded synthetic-art cache (art no longer ships in-jar). */
+	private AssetLoader newLoader()
+	{
+		AssetLoader l = new AssetLoader();
+		l.setAssetCacheDir(artCache);
+		return l;
 	}
 
 	@After
@@ -315,7 +325,7 @@ public class AnimationServiceTest
 		// service — the login-time refresh alone would race the state load.
 		RunieStateStore store2 = TestStateStores.create(new Gson(), executor, registry, dir);
 		ProgressionService progression2 = new ProgressionService(store2, registry, new com.runie.core.EggService(store2, clock));
-		AnimationService anim2 = new AnimationService(new AssetLoader(), unlockedStyles(), progression2,
+		AnimationService anim2 = new AnimationService(newLoader(), unlockedStyles(), progression2,
 			config, clock, Runnable::run);
 		anim2.refresh(); // pre-load refresh (GameState.LOGGED_IN): state not bound yet
 		assertNull(anim2.getActiveClips());
@@ -343,7 +353,7 @@ public class AnimationServiceTest
 
 		RunieStateStore store2 = TestStateStores.create(new Gson(), executor, registry, dir);
 		ProgressionService progression2 = new ProgressionService(store2, registry, new com.runie.core.EggService(store2, clock));
-		AnimationService anim2 = new AnimationService(new AssetLoader(), unlockedStyles(), progression2,
+		AnimationService anim2 = new AnimationService(newLoader(), unlockedStyles(), progression2,
 			config, clock, Runnable::run);
 		store2.addLoadListener(hash -> anim2.refresh());
 		store2.switchAccount(HASH); // must not throw, must not quarantine

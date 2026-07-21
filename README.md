@@ -2,7 +2,7 @@
 
 A cozy, collectible creature companion for [RuneLite](https://runelite.net). Runie turns your normal Old School RuneScape play into a lighthearted local metagame: earn eggs just by playing, hatch them to discover one of 40 original creatures, and raise your companion as it levels and evolves alongside your own XP.
 
-Runie is free, fully offline, cosmetic-only, and gives no gameplay advantage of any kind.
+Runie is free, local-first, cosmetic-only, and gives no gameplay advantage of any kind. (The creature art downloads once from GitHub on first launch, then everything runs locally.)
 
 ---
 
@@ -100,7 +100,9 @@ Runie never interacts with the game on your behalf: it sends no input, adds no m
 
 ## Privacy — local only
 
-All Runie data (your collection, eggs, levels, settings) is stored **locally on your computer as JSON**. The plugin makes **zero network requests** and collects **no telemetry, analytics, or personal data**. Nothing ever leaves your machine.
+All Runie data (your collection, eggs, levels, settings) is stored **locally on your computer as JSON**. The plugin's **only** network use is a one-time download of the creature art from **github.com** the first time you run it (cached under `RUNELITE_DIR/runie/`); after that Runie runs fully locally. It collects **no telemetry, no analytics, and no personal data** — the only outbound requests are plain static-file downloads, and nothing about you or your account ever leaves your machine.
+
+> **Why the download?** The full animation set is larger than the Plugin Hub's per-plugin size limit, so the frames live on this repo's `assets` branch and stream into a local cache on first launch instead of bloating the jar. Downloads that fail simply retry next launch; the companion shows a silhouette until its art arrives.
 
 ## Installation
 

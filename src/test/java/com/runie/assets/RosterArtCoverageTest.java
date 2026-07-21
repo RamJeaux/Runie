@@ -28,6 +28,8 @@ public class RosterArtCoverageTest
 		registry = new CreatureRegistry(new Gson());
 		registry.load();
 		loader = new AssetLoader();
+		// art streams into a cache at runtime rather than shipping in-jar
+		loader.setAssetCacheDir(com.runie.support.TestArt.roster(registry));
 	}
 
 	@Test

@@ -19,9 +19,15 @@ public class AssetLoaderTest
 	private AssetLoader loader;
 
 	@Before
-	public void setUp()
+	public void setUp() throws Exception
 	{
+		// Real art streams into a cache at runtime (not bundled in-jar), so point
+		// the loader at a synthetic seeded cache; fallbackling stays on the classpath
+		// to exercise the legacy frame_000 + style-fallback paths.
+		com.runie.creatures.CreatureRegistry registry = new com.runie.creatures.CreatureRegistry(new com.google.gson.Gson());
+		registry.load();
 		loader = new AssetLoader();
+		loader.setAssetCacheDir(com.runie.support.TestArt.roster(registry));
 	}
 
 	@Test

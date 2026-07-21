@@ -5,6 +5,8 @@ import java.awt.RenderingHints;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
@@ -45,6 +47,22 @@ public class AssetLoader
 
 	private final Map<String, AnimationClip> clipCache = new ConcurrentHashMap<>();
 	private final Map<String, BufferedImage> thumbCache = new ConcurrentHashMap<>();
+
+	/**
+	 * Root of the downloaded-art cache (RUNELITE_DIR/runie/assets), populated by
+	 * {@link com.runie.core.RunieAssetService} on first launch. When set, it is
+	 * the PRIMARY art source; the bundled classpath is only a fallback (kept tiny
+	 * so the jar stays under the Plugin Hub 10 MB limit — the full animation art
+	 * lives outside the jar and streams into this cache).
+	 */
+	private volatile Path assetCacheDir;
+
+	/** Point the loader at the downloaded-art cache root (see RunieAssetService). */
+	public void setAssetCacheDir(Path dir)
+	{
+		this.assetCacheDir = dir;
+		invalidate(); // any clips decoded before the cache was ready must be re-resolved
+	}
 
 	/**
 	 * Resource path for one frame — the single place the §5.1 convention lives.
@@ -204,8 +222,31 @@ public class AssetLoader
 		return new AnimationClip(frames, fps, loop);
 	}
 
-	private static BufferedImage decode(String resourcePath)
+	private BufferedImage decode(String resourcePath)
 	{
+		// 1) downloaded-art cache (primary source once RunieAssetService has synced)
+		Path dir = assetCacheDir;
+		if (dir != null)
+		{
+			String rel = resourcePath.startsWith("/") ? resourcePath.substring(1) : resourcePath;
+			Path f = dir.resolve(rel);
+			if (Files.isRegularFile(f))
+			{
+				try (InputStream in = Files.newInputStream(f))
+				{
+					BufferedImage img = ImageIO.read(in);
+					if (img != null)
+					{
+						return img;
+					}
+				}
+				catch (IOException e)
+				{
+					log.warn("Runie: failed to read cached {}", f, e);
+				}
+			}
+		}
+		// 2) bundled classpath (kept minimal: test fixtures / any small bundled fallback)
 		try (InputStream in = AssetLoader.class.getResourceAsStream(resourcePath))
 		{
 			if (in == null)

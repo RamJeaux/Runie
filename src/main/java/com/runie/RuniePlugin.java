@@ -10,6 +10,7 @@ import com.runie.core.ClientAccountContext;
 import com.runie.core.GachaService;
 import com.runie.core.GuardedClock;
 import com.runie.core.ProgressionService;
+import com.runie.core.RunieAssetService;
 import com.runie.core.RunieClock;
 import com.runie.core.RunieRandom;
 import com.runie.core.EggService;
@@ -33,6 +34,7 @@ import net.runelite.api.events.GameStateChanged;
 import net.runelite.api.events.GameTick;
 import net.runelite.api.events.HitsplatApplied;
 import net.runelite.api.events.StatChanged;
+import net.runelite.client.RuneLite;
 import net.runelite.client.callback.ClientThread;
 import net.runelite.client.config.ConfigManager;
 import net.runelite.client.Notifier;
@@ -103,6 +105,9 @@ public class RuniePlugin extends Plugin
 
 	@Inject
 	private AssetLoader assetLoader;
+
+	@Inject
+	private RunieAssetService assetService;
 
 	@Inject
 	private ArtStyleService artStyleService;
@@ -261,6 +266,20 @@ public class RuniePlugin extends Plugin
 			}
 		};
 		stateStore.addLoadListener(stateLoadListener);
+
+		// Stream the creature art bundle into the local cache on first launch (the
+		// jar ships without it to stay under the Plugin Hub 10 MB limit). Runs in
+		// the background; the UI shows silhouettes until frames land, then refreshes.
+		Runnable artRefresh = () ->
+		{
+			assetLoader.invalidate();
+			animationService.refresh();
+			if (panel != null)
+			{
+				panel.refreshLater();
+			}
+		};
+		assetService.start(RuneLite.RUNELITE_DIR.toPath(), artRefresh, artRefresh);
 
 		// If Runie was enabled mid-session (already logged in, no fresh login and
 		// no XP tick yet), bind + load the account state NOW so the collection
