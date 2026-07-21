@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "grubnak",
+    "name": "Grubnak",
+    "rarity": "COMMON",
+    "archetype": "Goblinoid",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Grubnak",
+        "description": "The runt of a green-skinned war-race that squabbles in the caves and fields past the frontier towns. It worships a strength it doesn't have yet, guards a pointy stick like treasure, and starts fights it fully intends to lose."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Grubnak the Scrapper",
+        "description": "Bigger, greyer, and finally strong enough to back up the mouth. It's traded the stick for a real spear and a scrap of looted armor, and now drags the smaller goblins into 'glorious' skirmishes over scrap."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Warchief Grubnak",
+        "description": "Swollen into the near-extinct, ogre-blooded warrior strain the tribes only whisper about — a slab of muscle and dogma that fights in the name of the war god. When it roars, the whole warband moves."
+      }
+    ],
+    "prestigeTitle": "Grubnak, First of the Warband",
+    "goldenAuraAt120": true,
+    "lore": "Grubnak talks big and fights bigger than its size suggests — most of its scars are from tripping over its own weapon, not from battle.",
+    "goldenLore": "The runt that clawed its way to warchief and never once stopped. Gilded in its own legend, it leads a warband that would follow it into the abyss itself."
+  },
+  {
+    "id": "skitterscour",
+    "name": "Skitterscour",
+    "rarity": "COMMON",
+    "archetype": "Giant Rat",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Skitterscour",
+        "description": "A grey sewer-rat grown to the size of a dog, all whiskers and appetite. It fears cats, brooms, and absolutely nothing else."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Skitterscour the Gnawer",
+        "description": "A scarred, stronghold-bred gnawer that has survived every trap set for it and eaten most of them. Its teeth never stop growing, so it never stops chewing."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Ratking Skitterscour",
+        "description": "The bloated rat-lord of the under-sewers, ringed by a squeaking court of its own descendants. It rules the dark below the city and considers the city above a rumor."
+      }
+    ],
+    "prestigeTitle": "Skitterscour, Warren-Sovereign",
+    "goldenAuraAt120": true,
+    "lore": "Skitterscour has never met a hole it wouldn't dig, a crumb it wouldn't chase, or a fight it could actually win — and it doesn't care.",
+    "goldenLore": "Sovereign of every warren, drain, and forgotten cellar. It has gnawed its way to a crown, and dares the daylight to come take it back."
+  },
+  {
+    "id": "cluckabee",
+    "name": "Cluckabee",
+    "rarity": "COMMON",
+    "archetype": "Bird",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Cluckabee",
+        "description": "A small barnyard chicken with delusions of grandeur roughly forty times its body weight. It has declared war on a scarecrow and is, so far, losing."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Cluckabee the Bold",
+        "description": "Bolder now, and somehow louder — a puffed-up battle-fowl that struts the frontlines of conflicts no one else can see. The feathers are for intimidation. It is not working."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Talonlord Cluckabee",
+        "description": "A cloaked, spur-taloned rooster-warlord straight out of a barnyard legend nobody asked for. It cannot actually fight, but it has never let a small thing like that slow it down."
+      }
+    ],
+    "prestigeTitle": "Cluckabee, Eternal Rooster",
+    "goldenAuraAt120": true,
+    "lore": "Cluckabee firmly believes it is the fiercest warrior in all the land. It has never once been proven wrong to its face.",
+    "goldenLore": "The undying rooster of legend, crowing at a sunrise it personally takes credit for. Feared by worms, respected by no one, eternal all the same."
+  },
+  {
+    "id": "woolder",
+    "name": "Woolder",
+    "rarity": "COMMON",
+    "archetype": "Bear",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Woolder",
+        "description": "A round, fuzzy cub with a farmyard temperament and a talent for napping in doorways. It has never met a fence it couldn't lean on until it fell over."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Woolder the Steadfast",
+        "description": "Grown broad and grizzled, a steadfast bruin that ambles the treeline and settles arguments by sitting on them. Slow to anger, impossible to move once it is."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Bruinlord Woolder",
+        "description": "The great shaggy bear-lord of the deep woods, thick-pelted and mountain-shouldered. Whole hunting parties have turned around rather than wake it."
+      }
+    ],
+    "prestigeTitle": "Woolder, Forest-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Woolder has broken exactly one fence in its life and considers this its greatest achievement.",
+    "goldenLore": "Elder of every forest that ever kept it warm. It broke one fence in its youth and still counts it, fondly, as its finest hour."
+  },
+  {
+    "id": "pindlewick",
+    "name": "Pindlewick",
+    "rarity": "COMMON",
+    "archetype": "Imp / Demon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Pindlewick",
+        "description": "A small red horned imp that blinks in and out of sight, pockets already full of things that were recently yours. It teleports mostly to avoid consequences."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Pindlewick the Sly",
+        "description": "A sly, quicker imp with a hoard and a grudge, running rings around anyone slow enough to reach for it. Half its tricks are magic; the other half are just nerve."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Trickster-King Pindlewick",
+        "description": "Grown at last into a proper trickster-demon, crowned in stolen trinkets and cackling smoke. It could rule the lower halls — it would just rather rob them."
+      }
+    ],
+    "prestigeTitle": "Pindlewick, Hoarder of All",
+    "goldenAuraAt120": true,
+    "lore": "Pindlewick has never stolen anything it needed. It just likes having things that used to be yours.",
+    "goldenLore": "Hoarder of all, keeper of nothing it earned honestly. Its pile of gilded plunder is now taller than the demon lords who tried to tax it."
+  },
+  {
+    "id": "bananip",
+    "name": "Bananip",
+    "rarity": "COMMON",
+    "archetype": "Monkey / Ape",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Bananip",
+        "description": "A small, defenseless jungle monkey with fast hands and faster loyalty to its own stomach. It will trade you anything for a banana, including your other bananas."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Bananip the Vambraced",
+        "description": "Grown into a huge brutish jungle-guard, its forearms wrapped in dangerous-looking vambraces. It pounds its chest, mends its own wounds mid-brawl, and guards its grove like a temple."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Warcrown Bananip",
+        "description": "A war-crowned ape of genuinely fearsome build, fluent in every fighting style and above using only one. Even the cavern beasts give its territory a respectful gap."
+      }
+    ],
+    "prestigeTitle": "Bananip, Jungle-Sovereign",
+    "goldenAuraAt120": true,
+    "lore": "Bananip will trade almost anything for a banana, including several things that were never Bananip's to trade.",
+    "goldenLore": "Sovereign of the whole jungle canopy, throne piled high with tribute fruit. It rules with an iron fist and a very sticky one."
+  },
+  {
+    "id": "grottlecap",
+    "name": "Grottlecap",
+    "rarity": "COMMON",
+    "archetype": "Fungal Beast",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Grottlecap",
+        "description": "A shy walking mushroom that hides among ordinary fungi and waits, dreaming small damp dreams, until something disturbs it. Then it is briefly and confusingly hostile."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Grottlecap the Sporespun",
+        "description": "A spore-spun fungal beast the size of a stump, trailing a cloud of drowsy dust wherever it shambles. Cut it and it simply grows the piece back, mildly offended."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Eldercap Grottlecap",
+        "description": "An ancient cavern-elder of fungus and rot, older than the forest floor it sprouted from. It speaks, when it speaks at all, in slow puffs of glowing spores."
+      }
+    ],
+    "prestigeTitle": "Grottlecap, Grove-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Grottlecap is convinced it is a very tall mushroom rather than a creature, and refuses all evidence to the contrary.",
+    "goldenLore": "Grove-eternal, root-deep, and utterly certain it is simply a very tall mushroom. The grove has stopped arguing and started worshipping."
+  },
+  {
+    "id": "clackerdown",
+    "name": "Clackerdown",
+    "rarity": "COMMON",
+    "archetype": "Crab",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Clackerdown",
+        "description": "A camouflaged shore-crab that spends its life impersonating a rock and resents being noticed. Step too close and the 'rock' develops opinions and pincers."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Clackerdown the Boulderback",
+        "description": "A boulder-backed crab with a shell like a small fortress and the patience of one under siege. It has held the same tide-pool for years out of pure stubbornness."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Seawall Clackerdown",
+        "description": "The armored king of the sea-wall, a crab grown into living breakwater, pincers that fold ship-timbers. The tide comes in, breaks against it, and leaves disappointed."
+      }
+    ],
+    "prestigeTitle": "Clackerdown, Tide-Unmoved",
+    "goldenAuraAt120": true,
+    "lore": "Clackerdown once held a beach against the tide for six hours. The tide, reportedly, is still embarrassed.",
+    "goldenLore": "Tide-unmoved, storm-unbothered, sovereign of one very specific beach. It once held that beach against the ocean for six hours; the ocean still won't discuss it."
+  },
+  {
+    "id": "barkuff",
+    "name": "Barkuff",
+    "rarity": "COMMON",
+    "archetype": "Dog",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Barkuff",
+        "description": "A scruffy, watchful pup that guards whatever you last set down as if it were a hoard of gold. Especially, and non-negotiably, your lunch."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Barkuff the Watchful",
+        "description": "A lean guard-dog gone half-wild, ears up at every snapped twig on the road. Loyal to a fault, suspicious of everything, asleep only in theory."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Feralfang Barkuff",
+        "description": "A feral-fanged pack-hound, scarred and enormous, leading a hunt across the moors by moonlight. It still comes when you whistle — it just brings the whole pack now."
+      }
+    ],
+    "prestigeTitle": "Barkuff, Ever-Loyal",
+    "goldenAuraAt120": true,
+    "lore": "Barkuff guards whatever you set down last as if it were the crown jewels. Especially your lunch.",
+    "goldenLore": "Ever-loyal, ever-hungry, and now the size of a small horse. It has guarded your belongings so long it has honestly forgotten they were ever yours."
+  },
+  {
+    "id": "bouldergrum",
+    "name": "Bouldergrum",
+    "rarity": "COMMON",
+    "archetype": "Giant",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Bouldergrum",
+        "description": "A young giant, big enough to be a menace and clumsy enough to be a bigger one. It means well, mostly, and apologizes to the doorframes it destroys."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Bouldergrum the Frosthide",
+        "description": "A frost-hided mountain giant that carries its own weather and a club it keeps forgetting the size of. Winter rolls off its shoulders; so do most of its thoughts."
+      },
+      {
+        "stage": 3,
+        "minLevel": 75,
+        "title": "Flamehand Bouldergrum",
+        "description": "A flame-handed colossus of the deep peaks, embers banked in its knuckles, footsteps felt three valleys over. It is gentle, until the ground stops being."
+      }
+    ],
+    "prestigeTitle": "Bouldergrum, Mountain-Made",
+    "goldenAuraAt120": true,
+    "lore": "Bouldergrum is very careful with its club indoors. It has broken four doorframes being careful.",
+    "goldenLore": "Mountain-made and mountain-sized, an elder giant that predates the roads around its feet. It is still very careful with its club indoors. It has never once succeeded."
+  },
+  {
+    "id": "ratterbone",
+    "name": "Ratterbone",
+    "rarity": "UNCOMMON",
+    "archetype": "Skeleton",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Ratterbone",
+        "description": "A loose-jointed skeleton warrior that rattles back upright every time it's knocked flat, mildly annoyed and out of good reasons to stop. It doesn't recall who it was."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Ratterbone the Unbroken",
+        "description": "An unbroken revenant, bones scavenged and re-lashed with wire and spite, still gripping a notched blade. Whatever oath raised it, it has long outlasted the one who swore it."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Deathless Ratterbone",
+        "description": "A deathless undead champion in dented, ceremonial plate, guarding a crypt whose name it no longer remembers. It only remembers that it is still standing, and intends to stay that way."
+      }
+    ],
+    "prestigeTitle": "Ratterbone, the Unending",
+    "goldenAuraAt120": true,
+    "lore": "Ratterbone doesn't remember who it was. It only remembers that it's still standing, and it intends to keep it that way.",
+    "goldenLore": "The unending — knocked down more times than any living army could count, and upright every single time. Death has stopped keeping score."
+  },
+  {
+    "id": "wisplume",
+    "name": "Wisplume",
+    "rarity": "UNCOMMON",
+    "archetype": "Ghost",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Wisplume",
+        "description": "A pale, drifting spirit that lingers near warm windows and cold graves alike, never quite arriving. It is looking for something, or someone; it has forgotten which."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Wisplume the Wandering",
+        "description": "A wandering ghost gone thin with years of searching, chill trailing behind it like a hem. It still turns toward every lantern in every passing town."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Sorrowveil Wisplume",
+        "description": "A sorrow-veiled shade of real presence and older grief, the air frosting where it passes. It weeps without sound, and the weeping is somehow the gentlest thing about it."
+      }
+    ],
+    "prestigeTitle": "Wisplume, Farewell-Bound",
+    "goldenAuraAt120": true,
+    "lore": "Wisplume drifts toward warm lantern-light in every town it passes, and no one's quite sure if it's looking for something — or someone.",
+    "goldenLore": "Farewell-bound and never quite gone, a spirit that mastered patience the long way. It has stopped searching — now it simply keeps the light company."
+  },
+  {
+    "id": "glabbertongue",
+    "name": "Glabbertongue",
+    "rarity": "UNCOMMON",
+    "archetype": "Frog",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Glabbertongue",
+        "description": "A squat swamp-frog the size of a shield, all throat and appetite, snapping flies from the reeds. Its croak is far bigger than the rest of it, which is saying something."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Glabbertongue the Bellower",
+        "description": "A bellowing cave-frog grown grotesquely large in the dark under the marsh, tongue like a whipcrack. Fishermen three towns over have blamed its call on thunder."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Marshking Glabbertongue",
+        "description": "The marsh-king itself, a colossal amphibian throned in bog-water and moonlight, swallowing whole what smaller things flee. The swamp holds its breath when it sings."
+      }
+    ],
+    "prestigeTitle": "Glabbertongue, Bog-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Glabbertongue's croak has startled fishermen three towns over. It has no idea, and wouldn't care if it did.",
+    "goldenLore": "Bog-eternal, throat like a war-drum, sovereign of every reed and ripple. Its croak has startled kingdoms; it has never once noticed, and never once cared."
+  },
+  {
+    "id": "stingrilla",
+    "name": "Stingrilla",
+    "rarity": "UNCOMMON",
+    "archetype": "Scorpion",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Stingrilla",
+        "description": "A skittering desert scorpion, small and shiny and far too confident about its tail. It taps that tail on stone just to hear the click, which is not, technically, a threat."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Stingrilla the Armored",
+        "description": "An armored king-scorpion grown past all reasonable scorpion size, plates locking like a war-machine. 'Things shouldn't get that big,' say the miners, from a distance, running."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Ironshell Stingrilla",
+        "description": "The iron-shelled venom-queen of the dunes, a scorpion the size of a cart, tail arched like a siege-hook. The sand goes quiet wherever her shadow crosses it."
+      }
+    ],
+    "prestigeTitle": "Stingrilla, Sandborn Sovereign",
+    "goldenAuraAt120": true,
+    "lore": "Stingrilla has never actually stung anything on purpose. It just likes the sound its tail makes when it taps.",
+    "goldenLore": "Sandborn sovereign, empress of every crack and crevice in the deep desert. She has still never stung anything on purpose — she simply never has to."
+  },
+  {
+    "id": "grimshank",
+    "name": "Grimshank",
+    "rarity": "UNCOMMON",
+    "archetype": "Zombie",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Grimshank",
+        "description": "A shuffling zombie stitched from whatever the graveyard had spare, arriving late to everything by policy. Slow, patient, and impossible to convince it's finished."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Grimshank the Scavenged",
+        "description": "A scavenged corpse-brute, re-armored in grave-iron and grudges, dragging one boot and no apologies. Cut a piece off and it just picks the piece back up."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Deadmarch Grimshank",
+        "description": "A dead-march warlord at the head of a silent, rotting column, banner made of its own bindings. It has no destination. It simply keeps arriving."
+      }
+    ],
+    "prestigeTitle": "Grimshank, the Twice-Risen",
+    "goldenAuraAt120": true,
+    "lore": "Grimshank shuffles everywhere, arrives late to everything, and has never once failed to arrive.",
+    "goldenLore": "The twice-risen, buried more thoroughly than anything has a right to survive, upright anyway. It is always late, and it has never, ever failed to come."
+  },
+  {
+    "id": "howlrend",
+    "name": "Howlrend",
+    "rarity": "UNCOMMON",
+    "archetype": "Wolf",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Howlrend",
+        "description": "A lean grey wolf-pup with too much voice and not enough sense, howling at anything round and bright. It has a personal, unexplained grudge against one fence post."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Howlrend the Frostcoat",
+        "description": "A frost-coated wolf run hard and lean by the winter woods, eyes like lamplight on snow. It runs down whatever runs, and walks beside whatever doesn't."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Alpha Howlrend",
+        "description": "The alpha of a moon-chosen pack, huge and scar-muzzled, its howl answered from every ridge at once. Where it turns its head, the pack is already moving."
+      }
+    ],
+    "prestigeTitle": "Howlrend, Moon-Chosen",
+    "goldenAuraAt120": true,
+    "lore": "Howlrend howls at the moon, the sun, and one specific fence post it has never forgiven.",
+    "goldenLore": "Moon-chosen and mountain-famed, an elder wolf whose howl the valleys memorized. It still howls at that one fence post. The post has learned to be afraid."
+  },
+  {
+    "id": "moankettle",
+    "name": "Moankettle",
+    "rarity": "UNCOMMON",
+    "archetype": "Banshee",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Moankettle",
+        "description": "A wailing spirit in tattered shrouds whose voice alone makes ears ache and milk turn. It considers curdling your soup at forty paces a sincere compliment to the soup."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Moankettle the Stormtorn",
+        "description": "A storm-torn banshee grown into her grief, hair like blown smoke, keening on a wind only she can hear. Cover your ears; it will not help, but she appreciates the effort."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Wailqueen Moankettle",
+        "description": "The wail-queen, a shrieking sorrow-sovereign whose lament shatters glass and resolve alike. Armies have simply sat down and wept rather than face the chorus she brings."
+      }
+    ],
+    "prestigeTitle": "Moankettle, the Last Lament",
+    "goldenAuraAt120": true,
+    "lore": "Moankettle's wail can curdle soup at forty paces. It considers this a compliment to the soup.",
+    "goldenLore": "The last lament, a voice that outlived every hall it ever emptied. She has stopped screaming to be heard — now the silence listens for her."
+  },
+  {
+    "id": "gillcrest",
+    "name": "Gillcrest",
+    "rarity": "UNCOMMON",
+    "archetype": "Lizardfolk",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Gillcrest",
+        "description": "A frilled marsh lizard-folk, spear in hand and suspicion in both eyes, hissing at ripples in the reeds. It distrusts almost everything, and does so magnificently."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Gillcrest the Brute",
+        "description": "A scaled brute of the swamp-tribes, broad-backed and war-painted, fanning its frill at anything that moves wrong. It has never lost an argument it could resolve with a spear."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "War-Shaman Gillcrest",
+        "description": "A war-shaman of the lizard-folk, storm-marked and rattling with charms, calling marsh-lightning down on trespassers. Its frill, fully flared, has ended battles by intimidation alone."
+      }
+    ],
+    "prestigeTitle": "Gillcrest, Frill-Sovereign",
+    "goldenAuraAt120": true,
+    "lore": "Gillcrest fans its frill at anything it distrusts. It distrusts almost everything, magnificently.",
+    "goldenLore": "Frill-sovereign of the whole drowned delta, every tribe bent to its hiss. It still distrusts everything. Everything, it turns out, was right to be nervous."
+  },
+  {
+    "id": "knucklemaw",
+    "name": "Knucklemaw",
+    "rarity": "UNCOMMON",
+    "archetype": "Troll",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Knucklemaw",
+        "description": "A lump of a young mountain troll, named — in the proper troll fashion — after the first thing it ever tried to eat. Which was a rock. It is still proud of this."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Knucklemaw the General",
+        "description": "A troll grown into a 'general' by the simple logic of being the largest thing willing to give orders. It leads by hitting problems until they agree with it."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Frostclub Knucklemaw",
+        "description": "A frost-clubbed troll-king of the high passes, hauling a chunk of glacier it uses as a weapon and, occasionally, a stool. Avalanches move out of its way."
+      }
+    ],
+    "prestigeTitle": "Knucklemaw, Ridge-Unbroken",
+    "goldenAuraAt120": true,
+    "lore": "Knucklemaw is named, in the proper troll fashion, after the first thing it ever tried to eat.",
+    "goldenLore": "Ridge-unbroken, peak-crowned, and still named after a rock. It has eaten stranger things since, but the name, it feels, has aged into a title."
+  },
+  {
+    "id": "tidecoil",
+    "name": "Tidecoil",
+    "rarity": "UNCOMMON",
+    "archetype": "Sea Snake",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Tidecoil",
+        "description": "A luminous young sea-serpent, no bigger than an eel, its lure-light already flickering hopefully in the dark shallows. It has hypnotized two seagulls and itself, once."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Tidecoil the Luminous",
+        "description": "A glowing coil of deep-water serpent, ribboning through the reefs, drawing curious fish straight into its patient smile. The light is beautiful. That is the entire trap."
+      },
+      {
+        "stage": 3,
+        "minLevel": 78,
+        "title": "Deepcrest Tidecoil",
+        "description": "A deep-crested leviathan-serpent of the trenches, lantern-eyed and mile-long, coiling through water that never sees the sun. Sailors call the glow below 'the second moon' and row for shore."
+      }
+    ],
+    "prestigeTitle": "Tidecoil, Current-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Tidecoil's lure has hypnotized many a fish, two seagulls, and at least one very distracted fisherman.",
+    "goldenLore": "Current-eternal, tide-woven, a serpent that has swum every sea into one memory. Its lure has hypnotized fish, gulls, and at least one very distracted fisherman."
+  },
+  {
+    "id": "cindermaw",
+    "name": "Cindermaw",
+    "rarity": "RARE",
+    "archetype": "Hellhound",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Cindermaw",
+        "description": "A smoldering hell-pup born from a fire that simply refused to go out, coals for eyes and smoke for breath. It has not yet found a reason to cool down."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Cindermaw the Smoldering",
+        "description": "A smoke-wreathed fire-hound, coat glowing at the seams, leaving scorched pawprints wherever it prowls. Water spells cow it; nothing else even slows it."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Ashfang Cindermaw",
+        "description": "An ash-fanged elder hound of the deep infernal kennels, breath like a forge-door swinging open. It burns alone — a single searing head, and that is more than enough."
+      }
+    ],
+    "prestigeTitle": "Cindermaw, Ember-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Cindermaw was born from a fire that refused to go out. It hasn't found a reason to, either.",
+    "goldenLore": "Ember-eternal, born of a flame that would not die and grown into one that cannot. The fire that made it long since burned out. It never got the message."
+  },
+  {
+    "id": "grithstone",
+    "name": "Grithstone",
+    "rarity": "RARE",
+    "archetype": "Gargoyle",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Grithstone",
+        "description": "A small stone sentinel perched on a ruin's edge, so still that birds nest on it between the moments it moves. It has been mistaken for masonry for a decade."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Grithstone the Weathered",
+        "description": "A weathered gargoyle of cracked granite and older duty, wings furled, waiting for a signal no one living remembers giving. It moves exactly once, when it matters."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Cairnwarden Grithstone",
+        "description": "A cairn-warden colossus of living stone, a guardian pair's worth of menace folded into one grim silhouette. It has stood over the same ruin longer than the ruin has had a name."
+      }
+    ],
+    "prestigeTitle": "Grithstone, Ageless Warden",
+    "goldenAuraAt120": true,
+    "lore": "Grithstone has stood in the same ruin for longer than anyone can remember. It moves, exactly once, when it matters.",
+    "goldenLore": "Ageless warden, carved by no one now remembered, outlasting the walls it was set to guard. It has stood so long it has become the landmark it was protecting."
+  },
+  {
+    "id": "emberwyrmling",
+    "name": "Emberwyrmling",
+    "rarity": "RARE",
+    "archetype": "Green Dragon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Emberwyrmling",
+        "description": "A hatchling dragon barely bigger than a hound, all wing-elbows and hiccuped sparks, insisting it is already terrifying. Everyone agrees, mostly to be polite."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Emberwyrmling the Quickening",
+        "description": "A quickening young dragon, scales hardening toward true green, its first real dragonfire singeing its own snout as often as anything else. It is getting there. Loudly."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Wyrmking Emberling",
+        "description": "A brutal-grown wyrm-king, full-throated and full of fire at last, claiming ridgelines as its birthright. The 'ling' is gone from all but its name, which it refuses to update."
+      }
+    ],
+    "prestigeTitle": "Emberwyrmling, First Flame",
+    "goldenAuraAt120": true,
+    "lore": "Emberwyrmling insists it's already terrifying. Everyone agrees, mostly to be polite, while it tries very hard not to trip over its own tail.",
+    "goldenLore": "First-flame, the hatchling that grew into the horizon and never lost the swagger. It still insists it was always this terrifying. Now, at last, it's right."
+  },
+  {
+    "id": "basilyre",
+    "name": "Basilyre",
+    "rarity": "RARE",
+    "archetype": "Basilisk",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Basilyre",
+        "description": "A serpentine reptile whose gaze prickles the skin and drains the nerve, forcing hunters to fight it in a mirror's reflection. It practices its stare in every puddle, self-defeatingly."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Basilyre the Marbled",
+        "description": "A marble-scaled basilisk grown long and cold, its stare heavy enough to lock joints at a glance. Meet its eyes directly and your own strength drains away like poured water."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Knightgaze Basilyre",
+        "description": "A knight-gazed basilisk-lord in natural plate, a stare that petrifies and a patience that outlasts armies. Even reflected, its look is a weapon; unreflected, it is a verdict."
+      }
+    ],
+    "prestigeTitle": "Basilyre, the Unblinking",
+    "goldenAuraAt120": true,
+    "lore": "Basilyre practices its petrifying stare in every reflective surface it finds, which is, of course, self-defeating.",
+    "goldenLore": "The unblinking, a gaze that has turned braver things than you to standing stone. It has finally mastered its own reflection — by simply refusing to look away first."
+  },
+  {
+    "id": "thornkarr",
+    "name": "Thornkarr",
+    "rarity": "RARE",
+    "archetype": "Leaf-blade Brute",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Thornkarr",
+        "description": "A horned, hide-tough brute that shrugs off ordinary blades and can only be cut by leaf-shaped edges. It is impressed exclusively by leaf-shaped things, and by nothing else, ever."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Thornkarr the Regrown",
+        "description": "A regrown brute-beast bristling with new antler-thorns, its wounds sealing over almost as fast as they open. Bring the right blade or bring nothing but regret."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Grove-Tyrant Thornkarr",
+        "description": "A grove-tyrant of antler and thorn-vine, a walking thicket that treats the forest as its own armored hide. Only the keenest leaf-edge finds a way through, and only just."
+      }
+    ],
+    "prestigeTitle": "Thornkarr, Ever-Verdant",
+    "goldenAuraAt120": true,
+    "lore": "Thornkarr can only be impressed by leaf-shaped things. It is a very specific creature.",
+    "goldenLore": "Ever-verdant, a brute so old the forest grew up around it and called it 'elder.' It can still only be impressed by leaf-shaped things. It is a very specific creature."
+  },
+  {
+    "id": "zalthisk",
+    "name": "Zalthisk",
+    "rarity": "RARE",
+    "archetype": "Hive Insectoid",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Zalthisk",
+        "description": "A chittering desert hive-drone, mandibles clicking in what scholars insist is either a war-chant or gossip. It works, it digs, it obeys a queen it has never seen."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Zalthisk the Guardian",
+        "description": "An armored hive-guardian, poison beading on its spurs, standing sentinel at the tunnel-mouths of the deep nest. It does not question orders; it is not entirely sure it could."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Hive-Sovereign Zalthisk",
+        "description": "A hive-sovereign in its own right, a two-formed insect-matriarch crowned in chitin, the swarm bending to its every pheromone. Ten thousand voices click as one when it moves."
+      }
+    ],
+    "prestigeTitle": "Zalthisk, Ten-Thousand-Voiced",
+    "goldenAuraAt120": true,
+    "lore": "Zalthisk clicks its mandibles in what scholars believe is either a war-chant or gossip.",
+    "goldenLore": "Ten-thousand-voiced, matriarch of a hive that has hollowed a desert into a kingdom. Its mandibles still click constantly — the war-chant and the gossip, now, are the same thing."
+  },
+  {
+    "id": "pyrgeist",
+    "name": "Pyrgeist",
+    "rarity": "RARE",
+    "archetype": "Obsidian Warrior",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Pyrgeist",
+        "description": "A newborn thing of living obsidian, molten light bleeding through the cracks in its cooling shell. It remembers the mountain it was quarried from, and intends, someday, to visit."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Pyrgeist the Bladebound",
+        "description": "A blade-bound warrior of volcanic rock, edges of natural glass, veins of slow magma pulsing under black armor-plate. It fights with the patience of geology and the temper of a forge."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Obsidian Warden Pyrgeist",
+        "description": "An obsidian warden of the deep fire-caves, a towering figure of stone and banked flame, each footstep a small quake. It has stood guard so long it has half-melted into the floor and reformed."
+      }
+    ],
+    "prestigeTitle": "Pyrgeist, Forge-Born",
+    "goldenAuraAt120": true,
+    "lore": "Pyrgeist remembers the mountain it was quarried from, and intends, someday, to visit.",
+    "goldenLore": "Forge-born, mountain-made, an elder of molten rock that has outlasted its own volcano. The magma in its veins is older than the sea. It is in no hurry."
+  },
+  {
+    "id": "dredgemaw",
+    "name": "Dredgemaw",
+    "rarity": "RARE",
+    "archetype": "Deep-sea Horror",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Dredgemaw",
+        "description": "A pale, spined spawnling from the lightless trench, all fins and needle-teeth, surfacing only by accident. It is mostly mouth, and entirely appetite."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Dredgemaw the Spinecrest",
+        "description": "A spine-crested deep-sea horror grown broad and armored, riding storm-currents up from the black. It breaches for shipwrecks, thunder, and — mostly — snacks."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Deepking Dredgemaw",
+        "description": "A deep-king of the abyssal shelf, a reef-scaled leviathan-fish whose jaws could halve a hull. Whole fishing fleets change waters when its silhouette rises under them."
+      }
+    ],
+    "prestigeTitle": "Dredgemaw, Trench-Crowned",
+    "goldenAuraAt120": true,
+    "lore": "Dredgemaw surfaces only for storms, shipwrecks, and snacks. Mostly snacks.",
+    "goldenLore": "Trench-crowned, sovereign of a dark no light has mapped. It surfaces only for storms, wrecks, and snacks — and it has stopped bothering to pretend it isn't mostly the snacks."
+  },
+  {
+    "id": "duskrend",
+    "name": "Duskrend",
+    "rarity": "ELITE",
+    "archetype": "Void Demon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Duskrend",
+        "description": "A wisp of living dark that leaks out of shadowed corners, edges never quite in focus. It doesn't chase. It waits until you've forgotten it's there."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Duskrend the Unbound",
+        "description": "An unbound shadow-demon, a blur of teeth and absence that unmakes the light around it. You will not see it move; you will simply notice, too late, that it has."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Duskrend, Dread Herald",
+        "description": "A dread herald of the deep dark, a void-clad demon-lord trailing tendrils of swallowed light. It arrives in silence and leaves the same way, with less of you than before."
+      }
+    ],
+    "prestigeTitle": "Duskrend, Voidcrowned",
+    "goldenAuraAt120": true,
+    "lore": "Duskrend doesn't chase. It waits in the smoke until you've forgotten it's there — then reminds you, once, very politely.",
+    "goldenLore": "Voidcrowned, sovereign of every unlit place a lamp has ever failed. It waits in the smoke until you've forgotten it — then reminds you, once, very politely."
+  },
+  {
+    "id": "talonrend",
+    "name": "Talonrend",
+    "rarity": "ELITE",
+    "archetype": "Chromatic Dragon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Talonrend",
+        "description": "A sharp-eyed young dragon already outgrowing every den it claims, wings finally strong enough for real sky. It is deciding, with great drama, which mountain gets to be next."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Talonrend the Sharpening",
+        "description": "A sharpening chromatic dragon, scales darkening to storm-grey, dragonfire coming in long controlled sheets now. It hunts the high passes and drops on prey like falling weather."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Talonrend, Skyreaver",
+        "description": "A sky-reaver of tempest and talon, riding thunderheads and stooping through them, a full-grown dragon in its terrible prime. The wind changes when it wheels overhead."
+      }
+    ],
+    "prestigeTitle": "Talonrend, Stormward",
+    "goldenAuraAt120": true,
+    "lore": "Talonrend has already outgrown every den it's tried to claim. It's still deciding which mountain gets to be next.",
+    "goldenLore": "Stormward, master of the whole vault of sky, every ridgeline below it claimed or scorched. It finally picked its mountain. It picked all of them."
+  },
+  {
+    "id": "nechrallis",
+    "name": "Nechrallis",
+    "rarity": "ELITE",
+    "archetype": "Reaper Demon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Nechrallis",
+        "description": "A hook-limbed reaper-demon in a tattered shroud, an inverted mark burning on its chest, soul-light where a scythe should be. It calls up one small death-spawn and dotes on it."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Nechrallis the Twinshade",
+        "description": "A twin-shaded greater reaper, taller and colder, two death-spawns trailing it like grim shadows. The ribbons of soul-light it trails are the last thing many things see."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Nechrallis, Direreap Ascendant",
+        "description": "An ascendant direreaper-demon, a hooded harvester wreathed in three chaotic spawn of pure decay. It gardens the dead, patient and precise, and the harvest is always in season."
+      }
+    ],
+    "prestigeTitle": "Nechrallis, Deathgardener",
+    "goldenAuraAt120": true,
+    "lore": "Nechrallis's death spawns adore it. It pretends not to notice them trailing behind like ducklings.",
+    "goldenLore": "Deathgardener, elder of the reaping, its soul-lanterns lighting an endless quiet field. Its death-spawns adore it. It pretends not to notice them trailing behind like ducklings."
+  },
+  {
+    "id": "umbrask",
+    "name": "Umbrask",
+    "rarity": "ELITE",
+    "archetype": "Dark Beast",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Umbrask",
+        "description": "A hulking beast of living darkness whose fur drinks the light, edges blurring into the cave-black. It is very good at hiding and very bad at remembering its eyes glow."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Umbrask the Lightless",
+        "description": "A lightless dark-beast grown vast and always-hungry, ignoring every instinct that tells lesser things to leave you be. Where it walks, torches gutter and shadows lengthen."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Umbrask, Void-Colossus",
+        "description": "A void-colossus of matted shadow and slow menace, a mountain of dark that light simply bends around. It does not stalk so much as arrive, quietly, at scale."
+      }
+    ],
+    "prestigeTitle": "Umbrask, the Unseen",
+    "goldenAuraAt120": true,
+    "lore": "Umbrask is very good at hiding and very bad at remembering that its eyes glow.",
+    "goldenLore": "The unseen, an elder darkness that outlived the lamps set to find it. It is still hiding. Its eyes are still glowing. It still hasn't noticed."
+  },
+  {
+    "id": "vornathax",
+    "name": "Vornathax",
+    "rarity": "ELITE",
+    "archetype": "Greater Demon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Vornathax",
+        "description": "A red-hided lesser scion of the demon-hordes, horns budding, a broken shackle still locked on one wrist. It kept the chain — a warning to some, a souvenir to it."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Vornathax the Chainbreaker",
+        "description": "A chain-breaker greater demon, broad as a door and twice as hard to close, brimstone smoking off its shoulders. The manacle it snapped hangs from its belt like a trophy."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Vornathax, Brimstone-Crowned",
+        "description": "A brimstone-crowned demon-general, a war-lord of the infernal legions, its every order answered in fire. It leads the damned not by right but by the simple fact that none will refuse it."
+      }
+    ],
+    "prestigeTitle": "Vornathax, Shacklefree",
+    "goldenAuraAt120": true,
+    "lore": "Vornathax keeps its broken chain as a trophy, a warning, and — on cold nights — a scarf.",
+    "goldenLore": "Shacklefree, an elder demon that broke its bindings so long ago the chain has become legend. It keeps the broken links still — a trophy, a warning, and on cold nights, a scarf."
+  },
+  {
+    "id": "coilfen",
+    "name": "Coilfen",
+    "rarity": "ELITE",
+    "archetype": "Hydra",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Coilfen",
+        "description": "A wingless young serpent-dragon, a lab-born wyrm that slithers low until threatened, then rears up wrong and quick. One of an old dragonkin experiment's stranger successes."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Coilfen the Drakeborn",
+        "description": "A drake-born middle-form, wingless and furious, venting volcanic breath from gaping sores where wings should be. It is very aggressive, and, to be fair, in some pain about it."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Coilfen, Thrice-Crowned",
+        "description": "A thrice-crowned hydra of the fen, three heads bickering — one spitting venom, the others switching their fury between fang and spell. Cut one off and negotiations only get worse."
+      }
+    ],
+    "prestigeTitle": "Coilfen, Fen-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Coilfen's three heads agree on almost nothing, except that you are late with dinner.",
+    "goldenLore": "Fen-eternal, a three-headed elder that mastered every trick its makers built into it. Its heads agree on almost nothing, except that you are late with dinner."
+  },
+  {
+    "id": "vaelgrim",
+    "name": "Vaelgrim",
+    "rarity": "MASTER",
+    "archetype": "Metal Dragon",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Vaelgrim, Wyrmling of Legend",
+        "description": "A metal-scaled wyrmling of legend, hide already ringing like struck iron, eyes older than its small body. Kingdoms have risen and fallen; it was a hatchling for one of them."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Vaelgrim, the Rising Wyrm",
+        "description": "A rising metal dragon, plates hardened to living armor, breath a shimmer of heat that warps the air. It remembers the names of the dead realms and recites them when it's bored."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Vaelgrim, Elder of the Old Sky",
+        "description": "An elder of the old sky, a vast metal dragon whose scales turned aside the weapons of forgotten wars. It has outlived every hoard it ever guarded, and does not miss them."
+      }
+    ],
+    "prestigeTitle": "Vaelgrim, Sky-Sovereign",
+    "goldenAuraAt120": true,
+    "lore": "Vaelgrim has outlived kingdoms, and remembers each of their names. It has decided, for now, that yours is worth remembering too.",
+    "goldenLore": "Sky-sovereign, an ancient of the high wind that has watched the map redraw itself a dozen times. It has decided, for now, that your name is worth remembering too."
+  },
+  {
+    "id": "solenfyre",
+    "name": "Solenfyre",
+    "rarity": "MASTER",
+    "archetype": "Obsidian Champion",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Solenfyre, the Banked Ember",
+        "description": "A banked ember of a creature, obsidian shell dimmed to ash-grey, waiting in the cold cave for a reason to burn. Wake it and the coals in its chest flare like a struck forge."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Solenfyre the Rekindled",
+        "description": "A rekindled fire-champion of living rock and rising flame, molten seams reopening across its armored form. It fights the way a wildfire spreads — patiently, then all at once."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Solenfyre, Cave-Champion",
+        "description": "A cave-champion of the deep fire-arena, a towering obsidian warrior clad in its own heat-haze, undimmed by any water thrown at it. It has never once left the arena. It won."
+      }
+    ],
+    "prestigeTitle": "Solenfyre, the Undimmed",
+    "goldenAuraAt120": true,
+    "lore": "Solenfyre dims to ash-grey when it sleeps and blazes back alight when it wakes. Its neighbors describe this as 'alarming, daily.'",
+    "goldenLore": "The undimmed, an elder ember that has died down and blazed back more times than anyone kept count. Its neighbors describe this cycle as 'alarming, daily.'"
+  },
+  {
+    "id": "trivandire",
+    "name": "Trivandire",
+    "rarity": "MASTER",
+    "archetype": "Three-headed Hound",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Trivandire, the Threshold Pup",
+        "description": "A three-headed hound-pup guarding a threshold far too grand for its size, all six eyes trying very hard to look stern. The heads take turns napping so the gate is never unwatched."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Trivandire the Guardian",
+        "description": "A guardian-grown gate-hound, three heads finally in rough agreement, tri-toned howl echoing down the dark corridor it keeps. Nothing has slipped past it — nothing it will admit to."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Trivandire, Gate-Warden",
+        "description": "A gate-warden of true and awful size, one head breathing ember, one frost, one shadow, and none of them off duty. It stands watch at a door between somewheres, and lets nothing through unbidden."
+      }
+    ],
+    "prestigeTitle": "Trivandire, Threshold-Eternal",
+    "goldenAuraAt120": true,
+    "lore": "Trivandire's three heads take turns sleeping so the gate is never unwatched. They have never agreed whose turn it is.",
+    "goldenLore": "Threshold-eternal, an elder three-headed warden of the gate between worlds. Its heads take turns sleeping so the door is never unguarded. They have never once agreed whose turn it is."
+  },
+  {
+    "id": "abyzarok",
+    "name": "Abyzarok",
+    "rarity": "MASTER",
+    "archetype": "Kraken / Leviathan",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Abyzarok, the Quiet Lurker",
+        "description": "A quiet, drifting spawn of the deep trench, a knot of small tentacles that would rather not be noticed. It lurks under the whirlpool and waits for the water to forget it."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Abyzarok the Surfacing",
+        "description": "A surfacing tentacled horror grown wide as a longship's beam, arms breaching the swell in slow, testing coils. Magic bites it; steel and arrows simply vanish into the dark."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Abyzarok, Trench-Colossus",
+        "description": "A trench-colossus, a leviathan-kraken whose reaching arms can pluck a mast from the sea and a sailor from the deck. It rises only when disturbed, and the ocean disturbs it rarely."
+      }
+    ],
+    "prestigeTitle": "Abyzarok, the Deep Entire",
+    "goldenAuraAt120": true,
+    "lore": "Abyzarok waves with a different tentacle each time, and takes quiet offense if you don't notice.",
+    "goldenLore": "The deep entire — sovereign of a dark so total the surface is only a rumor to it. It waves with a different tentacle each time, and takes quiet offense if you don't notice."
+  },
+  {
+    "id": "malgrave",
+    "name": "Malgrave, the Hollow Crown",
+    "rarity": "GRANDMASTER",
+    "archetype": "Vampire",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Malgrave, the Nameless Regent",
+        "description": "A nameless, well-dressed regent of the blood-drinking nobility, pale and patient, certain a throne is owed. It does not recall which throne. It recalls, precisely, that it is owed."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Malgrave, the Ashen Throne-Bearer",
+        "description": "An ashen throne-bearer, a vampire-lord grown gaunt and grand, carrying the wreckage of a crown it will not set down. It rules a court of shadows that may be memory, may be real."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Malgrave, the Hollow Crown",
+        "description": "The Hollow Crown itself — a fallen vampire-sovereign fused to the ruin of its own throne, regal decay given fangs. It reigns over an empty hall and calls the silence 'loyal.'"
+      }
+    ],
+    "prestigeTitle": "Malgrave, the Undethroned",
+    "goldenAuraAt120": true,
+    "lore": "Malgrave does not remember losing its throne. It only remembers that it was owed one — and it has been waiting, patiently, ever since.",
+    "goldenLore": "The undethroned, an elder of the night-courts that turned losing everything into a kind of victory. It does not remember losing its throne. It remembers being owed one — and it is still, patiently, waiting."
+  },
+  {
+    "id": "ythrax",
+    "name": "Ythrax, the World-Coil",
+    "rarity": "GRANDMASTER",
+    "archetype": "Serpent",
+    "stages": [
+      {
+        "stage": 1,
+        "minLevel": 1,
+        "title": "Ythrax, the Quiet Coil",
+        "description": "A quiet coil of serpent in a sun-warmed canyon, deceptively ordinary, deceptively still. It was once mistaken for a common snake. The canyon is now named after the mistake."
+      },
+      {
+        "stage": 2,
+        "minLevel": 40,
+        "title": "Ythrax, the Rising Coil",
+        "description": "A rising coil grown vast and limbless, a serpent thick as an old oak, scales like weathered stone. When it shifts its weight, the ground it rests on remembers it for years."
+      },
+      {
+        "stage": 3,
+        "minLevel": 80,
+        "title": "Ythrax, the World-Coil",
+        "description": "The World-Coil, a primordial serpent so immense its slow turning is felt as far-off tremors. Old prophecies speak of a coiled thing tied to the end of things; the prophets meant this."
+      }
+    ],
+    "prestigeTitle": "Ythrax, Coil Without End",
+    "goldenAuraAt120": true,
+    "lore": "Ythrax was once mistaken for an ordinary snake. The canyon it was napping in is now named after the mistake.",
+    "goldenLore": "Coil without end, a serpent that has looped the horizon and swallowed its own legend whole. It naps for centuries. The world builds carefully around where it lies."
+  }
+]

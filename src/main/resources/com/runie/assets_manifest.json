@@ -1,0 +1,1928 @@
+{
+  "version": 1,
+  "generatedBy": "tools/gen_manifest.py",
+  "baseUrl": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/",
+  "note": "Approved (QA'd) concept sprites for all 42 lines x 3 stages x 2 styles. URLs require an authenticated platform session; run tools/fetch_assets.sh to install the real art over the bundled placeholder tiles. Only idle/frame_000 is sourced here \u2014 extra frames (multi-frame idles, aura_gold variants) are produced separately and are never overwritten.",
+  "entries": [
+    {
+      "creatureId": "grubnak",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "32688ecc-d5d1-4474-83ee-85466b22c04e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/32688ecc-d5d1-4474-83ee-85466b22c04e.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grubnak",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "01595650-9ed6-4bcf-92cc-76b1451789fe",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/01595650-9ed6-4bcf-92cc-76b1451789fe.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grubnak",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "7c1bdd4b-a1a2-42e5-945d-078f07b5aaf5",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/7c1bdd4b-a1a2-42e5-945d-078f07b5aaf5.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grubnak",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "4957cbed-643b-45e4-bcf4-b13ad1c4881e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4957cbed-643b-45e4-bcf4-b13ad1c4881e.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grubnak",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "af12be5c-bfeb-4d37-9ded-93b79a899467",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/af12be5c-bfeb-4d37-9ded-93b79a899467.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grubnak",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "3e37aa13-5915-43c3-8a1c-a7bd30dc1c7d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3e37aa13-5915-43c3-8a1c-a7bd30dc1c7d.png",
+      "resourcePath": "com/runie/creatures/grubnak/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "82a9dca1-fe76-4b77-ade6-1eb23e9c5749",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/82a9dca1-fe76-4b77-ade6-1eb23e9c5749.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "5799b31b-bb0d-419f-bce1-b7fb21eb433f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5799b31b-bb0d-419f-bce1-b7fb21eb433f.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "2ab07224-9d6c-4ab0-8b7b-36fa33b5239d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2ab07224-9d6c-4ab0-8b7b-36fa33b5239d.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "d309fd68-c0af-4abb-95dd-fe243d363269",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d309fd68-c0af-4abb-95dd-fe243d363269.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "a1b19452-bfbc-4691-a375-d781f26f7f36",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a1b19452-bfbc-4691-a375-d781f26f7f36.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "skitterscour",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "84660987-3cee-4254-9712-5860908b28a1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/84660987-3cee-4254-9712-5860908b28a1.png",
+      "resourcePath": "com/runie/creatures/skitterscour/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "729e108d-4a64-458a-bd60-37b8bf99c9da",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/729e108d-4a64-458a-bd60-37b8bf99c9da.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "f9e357d2-7d5f-4c84-9476-32c80d770ac0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f9e357d2-7d5f-4c84-9476-32c80d770ac0.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "5a1e7b09-a264-4a3e-aa03-ae882e129514",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5a1e7b09-a264-4a3e-aa03-ae882e129514.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "1c7332ef-836e-4ea9-b6e4-b19978fbe430",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1c7332ef-836e-4ea9-b6e4-b19978fbe430.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "b38f11b6-8011-43b4-9a92-e1cca325f2b6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b38f11b6-8011-43b4-9a92-e1cca325f2b6.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cluckabee",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "7855ef53-095b-48ed-93d3-c1a6b12445eb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/7855ef53-095b-48ed-93d3-c1a6b12445eb.png",
+      "resourcePath": "com/runie/creatures/cluckabee/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "71c4f7f4-9a88-49c9-b2b9-44293462dec9",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/71c4f7f4-9a88-49c9-b2b9-44293462dec9.png",
+      "resourcePath": "com/runie/creatures/woolder/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "4e381721-2980-4d34-80cf-789b4802c87c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4e381721-2980-4d34-80cf-789b4802c87c.png",
+      "resourcePath": "com/runie/creatures/woolder/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "43661377-a1e5-4b74-8e3c-af7bab4cb9d8",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/43661377-a1e5-4b74-8e3c-af7bab4cb9d8.png",
+      "resourcePath": "com/runie/creatures/woolder/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "f7ef52d0-4a58-40d0-95ed-fc5e1ea29fe2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f7ef52d0-4a58-40d0-95ed-fc5e1ea29fe2.png",
+      "resourcePath": "com/runie/creatures/woolder/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "ae5775ab-d7be-4a2f-a91f-9865ec39a1de",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ae5775ab-d7be-4a2f-a91f-9865ec39a1de.png",
+      "resourcePath": "com/runie/creatures/woolder/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "woolder",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "e12b07ca-4a47-4235-8d55-bc4ded7d6fb1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e12b07ca-4a47-4235-8d55-bc4ded7d6fb1.png",
+      "resourcePath": "com/runie/creatures/woolder/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b1be7334-c80e-4397-9791-2e32e2b83be1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b1be7334-c80e-4397-9791-2e32e2b83be1.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "0d5debed-dd7d-4db7-bfba-790cfbb3a047",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0d5debed-dd7d-4db7-bfba-790cfbb3a047.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "de80e580-d370-4060-86af-0b0ca0f2dc9c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/de80e580-d370-4060-86af-0b0ca0f2dc9c.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "3806cfd6-e62c-4bd4-b0e1-9f2aede7cc4e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3806cfd6-e62c-4bd4-b0e1-9f2aede7cc4e.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "ba18f047-5288-495b-ae45-04ceed2286f6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ba18f047-5288-495b-ae45-04ceed2286f6.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pindlewick",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "aa2e0895-8d0e-4627-a046-57a61d61b8bd",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/aa2e0895-8d0e-4627-a046-57a61d61b8bd.png",
+      "resourcePath": "com/runie/creatures/pindlewick/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "91168c0e-f9e3-4272-9685-c8bae999b623",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/91168c0e-f9e3-4272-9685-c8bae999b623.png",
+      "resourcePath": "com/runie/creatures/bananip/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "0fe4c470-4d3e-431c-9ec3-343b1f5097c0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0fe4c470-4d3e-431c-9ec3-343b1f5097c0.png",
+      "resourcePath": "com/runie/creatures/bananip/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "cb4736f7-d25b-4434-9f5f-41e69a708d91",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/cb4736f7-d25b-4434-9f5f-41e69a708d91.png",
+      "resourcePath": "com/runie/creatures/bananip/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "55c5e3d7-2f67-4616-a00b-6ecde275fab7",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/55c5e3d7-2f67-4616-a00b-6ecde275fab7.png",
+      "resourcePath": "com/runie/creatures/bananip/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "8d0a6e2f-f5ed-446a-9ab6-09caf8bf1ea9",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8d0a6e2f-f5ed-446a-9ab6-09caf8bf1ea9.png",
+      "resourcePath": "com/runie/creatures/bananip/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bananip",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "af1ad01a-71fd-4ca0-87d6-416f5acd4688",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/af1ad01a-71fd-4ca0-87d6-416f5acd4688.png",
+      "resourcePath": "com/runie/creatures/bananip/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "3d903bcf-cbe2-486b-b2dc-f4b2db4c9b7c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3d903bcf-cbe2-486b-b2dc-f4b2db4c9b7c.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "2f223e42-f941-4d5e-9634-277fc8eefe5f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2f223e42-f941-4d5e-9634-277fc8eefe5f.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "28cfab6d-ce88-4a02-bf9f-f0b60ff0a81b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/28cfab6d-ce88-4a02-bf9f-f0b60ff0a81b.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "518f62c7-50e8-4e6e-9ae3-a86d98cd2654",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/518f62c7-50e8-4e6e-9ae3-a86d98cd2654.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "1ce72c19-6d43-409e-a1fa-e09fd6360ba4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1ce72c19-6d43-409e-a1fa-e09fd6360ba4.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grottlecap",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "70fe6dec-3694-4e46-be9b-3f95412c3e11",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/70fe6dec-3694-4e46-be9b-3f95412c3e11.png",
+      "resourcePath": "com/runie/creatures/grottlecap/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "5e55c3cc-afda-490d-b8dc-f1560aa9f60f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5e55c3cc-afda-490d-b8dc-f1560aa9f60f.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "2f7e2cdd-8bb8-4c10-af40-4381dac9fb99",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2f7e2cdd-8bb8-4c10-af40-4381dac9fb99.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "595f7868-f874-457f-91e6-f6594187483e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/595f7868-f874-457f-91e6-f6594187483e.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "86a0bf3f-9d4a-4d9e-b3c9-3f22a10a3245",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/86a0bf3f-9d4a-4d9e-b3c9-3f22a10a3245.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "956ff0d0-0d94-4ddc-9916-fa37eb9dbf3c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/956ff0d0-0d94-4ddc-9916-fa37eb9dbf3c.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "clackerdown",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "749e2c3e-34ba-45c0-baba-7cc8dca7f437",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/749e2c3e-34ba-45c0-baba-7cc8dca7f437.png",
+      "resourcePath": "com/runie/creatures/clackerdown/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "d3be6f8f-090e-45ce-82c6-9f600a731495",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d3be6f8f-090e-45ce-82c6-9f600a731495.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "145ae7be-537b-416b-b79d-e29b34304f83",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/145ae7be-537b-416b-b79d-e29b34304f83.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "d8e9b5d5-ec58-4237-af7a-8b385828034f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d8e9b5d5-ec58-4237-af7a-8b385828034f.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "77edda63-5729-4537-912d-bac0a547751f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/77edda63-5729-4537-912d-bac0a547751f.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "41ddc9ba-9485-43d8-8db9-d728022667c0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/41ddc9ba-9485-43d8-8db9-d728022667c0.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "barkuff",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "e2fb35dd-cec8-4f10-940b-4ef168c643fc",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e2fb35dd-cec8-4f10-940b-4ef168c643fc.png",
+      "resourcePath": "com/runie/creatures/barkuff/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "67866493-8191-44d9-a244-1a64edaab57a",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/67866493-8191-44d9-a244-1a64edaab57a.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "5934f37c-9781-4a22-9573-b970e0f3d078",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5934f37c-9781-4a22-9573-b970e0f3d078.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "487b9e22-2d1d-4039-94a8-1f51572ee7e9",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/487b9e22-2d1d-4039-94a8-1f51572ee7e9.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "05dbb300-634c-473e-9dc3-7485d8e9dbc7",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/05dbb300-634c-473e-9dc3-7485d8e9dbc7.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "30cbe041-1602-4f41-8387-918147893715",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/30cbe041-1602-4f41-8387-918147893715.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "bouldergrum",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "2d0ecc96-de20-4f2e-a89a-46413368e6b1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2d0ecc96-de20-4f2e-a89a-46413368e6b1.png",
+      "resourcePath": "com/runie/creatures/bouldergrum/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "db28521a-d97f-4c9d-8428-55d9d99a04bb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/db28521a-d97f-4c9d-8428-55d9d99a04bb.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "eb5edb33-d2be-4531-9a92-9306c564d2c1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/eb5edb33-d2be-4531-9a92-9306c564d2c1.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "81f12f1a-6972-449f-ba03-0763348bc133",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/81f12f1a-6972-449f-ba03-0763348bc133.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "8573a386-3b1d-41e5-a86c-255ffdb526cb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8573a386-3b1d-41e5-a86c-255ffdb526cb.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "76b8f762-af0b-4d77-8e5d-70911239b813",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/76b8f762-af0b-4d77-8e5d-70911239b813.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ratterbone",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "ed453012-dce4-4f3b-95ae-2d4f55d8114c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ed453012-dce4-4f3b-95ae-2d4f55d8114c.png",
+      "resourcePath": "com/runie/creatures/ratterbone/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "58db99a1-73d1-4f32-a059-cb6512c09f04",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/58db99a1-73d1-4f32-a059-cb6512c09f04.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "1e6d06db-30ec-4809-ba64-4e0b4c14d194",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1e6d06db-30ec-4809-ba64-4e0b4c14d194.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "0495ef53-8f05-4d68-bb0c-359e5f4a1cef",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0495ef53-8f05-4d68-bb0c-359e5f4a1cef.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "c8f22a35-2215-420a-9de6-9107e6ce8fd3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/c8f22a35-2215-420a-9de6-9107e6ce8fd3.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "b29792c3-557e-44ca-9203-7a87d9a23538",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b29792c3-557e-44ca-9203-7a87d9a23538.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "wisplume",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "12c3014c-893a-4ae6-b8b2-d1a98c5f2248",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/12c3014c-893a-4ae6-b8b2-d1a98c5f2248.png",
+      "resourcePath": "com/runie/creatures/wisplume/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "528f1c96-c7e6-4009-abfb-dd60b7fbe9df",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/528f1c96-c7e6-4009-abfb-dd60b7fbe9df.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "7e0c0c1c-bc38-4364-9efb-1687094305f0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/7e0c0c1c-bc38-4364-9efb-1687094305f0.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f0b804f6-f1b0-4cde-a8bc-d68bd03b6736",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f0b804f6-f1b0-4cde-a8bc-d68bd03b6736.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "6f0d5eed-7ce9-4301-9bd4-f6f65ce9c652",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6f0d5eed-7ce9-4301-9bd4-f6f65ce9c652.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "9895bc18-e7f1-4b1f-82ad-44d61df1d105",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/9895bc18-e7f1-4b1f-82ad-44d61df1d105.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "glabbertongue",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "f63ac4d7-cb72-4106-b401-147dcdc80dff",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f63ac4d7-cb72-4106-b401-147dcdc80dff.png",
+      "resourcePath": "com/runie/creatures/glabbertongue/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b8bb8cb6-85e4-42b2-9258-ea9c7bbabc36",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b8bb8cb6-85e4-42b2-9258-ea9c7bbabc36.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "a7ff6a41-2923-44fb-827c-b9781c87b5ff",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a7ff6a41-2923-44fb-827c-b9781c87b5ff.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "a7b21284-9613-4256-a336-3d6b56384788",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a7b21284-9613-4256-a336-3d6b56384788.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "9e1a6d6d-45dc-4378-a53c-a5a609d36041",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/9e1a6d6d-45dc-4378-a53c-a5a609d36041.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "69742737-ed68-47a9-89f3-bea0e7742379",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/69742737-ed68-47a9-89f3-bea0e7742379.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "stingrilla",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "b30bf0bb-d141-47be-a28a-e5ae6744e960",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b30bf0bb-d141-47be-a28a-e5ae6744e960.png",
+      "resourcePath": "com/runie/creatures/stingrilla/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "937cc9e1-8530-42e8-a4a3-aa351d9ea2a3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/937cc9e1-8530-42e8-a4a3-aa351d9ea2a3.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "8d01b12c-d1fe-4487-862a-3ccc3453411f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8d01b12c-d1fe-4487-862a-3ccc3453411f.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "edf6fae6-4684-4387-be18-d023aff5061d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/edf6fae6-4684-4387-be18-d023aff5061d.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "712822c4-8694-425f-bcc6-8289dc53c5e0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/712822c4-8694-425f-bcc6-8289dc53c5e0.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "115ac69e-2c18-40da-bbca-f91645571e2b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/115ac69e-2c18-40da-bbca-f91645571e2b.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grimshank",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "5f4f73fc-22ac-445f-951e-933d44d51b7c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5f4f73fc-22ac-445f-951e-933d44d51b7c.png",
+      "resourcePath": "com/runie/creatures/grimshank/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b1f951da-8653-4544-9d5d-aae7bbee53c4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b1f951da-8653-4544-9d5d-aae7bbee53c4.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "41a5927a-a529-4e2b-8a45-f90d51ea3874",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/41a5927a-a529-4e2b-8a45-f90d51ea3874.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "827f261c-ff49-47ea-9f41-652e60cdd8a3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/827f261c-ff49-47ea-9f41-652e60cdd8a3.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "6343e74e-3a69-429d-8989-f20d0317cdc7",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6343e74e-3a69-429d-8989-f20d0317cdc7.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "c1c07897-643a-43d4-8a5e-5476ef2ba52f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/c1c07897-643a-43d4-8a5e-5476ef2ba52f.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "howlrend",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "6d2a919f-5d57-46db-a6c4-4e6730a87b3f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6d2a919f-5d57-46db-a6c4-4e6730a87b3f.png",
+      "resourcePath": "com/runie/creatures/howlrend/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "259c2417-d66b-42f5-bc81-c82756a01ef2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/259c2417-d66b-42f5-bc81-c82756a01ef2.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "eb5a4900-dda9-47c7-8d0a-aa3c83800f99",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/eb5a4900-dda9-47c7-8d0a-aa3c83800f99.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f17a8dc7-8c7f-4711-b5fe-40c7b01ac2ce",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f17a8dc7-8c7f-4711-b5fe-40c7b01ac2ce.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "8e31f889-0f6e-42c8-835b-bec8348729e3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8e31f889-0f6e-42c8-835b-bec8348729e3.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "46842c18-15da-4b01-980b-68111e1cc80d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/46842c18-15da-4b01-980b-68111e1cc80d.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "moankettle",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "5337e218-3516-45b5-913f-d7ef1aabf2c1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5337e218-3516-45b5-913f-d7ef1aabf2c1.png",
+      "resourcePath": "com/runie/creatures/moankettle/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b2bbbad7-9a78-423a-b2be-5ac75b036b92",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b2bbbad7-9a78-423a-b2be-5ac75b036b92.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "d340fd77-0f0f-476f-9577-927c2c05ece2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d340fd77-0f0f-476f-9577-927c2c05ece2.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "0f639b29-a5ea-4d93-9497-a56959883607",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0f639b29-a5ea-4d93-9497-a56959883607.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "158dcd29-6786-4ea9-97ec-23cf1f022805",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/158dcd29-6786-4ea9-97ec-23cf1f022805.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "3dd00866-13d8-4830-a7e8-9578e173335f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3dd00866-13d8-4830-a7e8-9578e173335f.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "gillcrest",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "b5fac76a-0f35-4ce7-ba5d-947a02d8fe6f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b5fac76a-0f35-4ce7-ba5d-947a02d8fe6f.png",
+      "resourcePath": "com/runie/creatures/gillcrest/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "a131f092-869d-4f44-8343-e771c45aae9e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a131f092-869d-4f44-8343-e771c45aae9e.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "375f7f07-3a2f-4fae-a785-d144ceb236ae",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/375f7f07-3a2f-4fae-a785-d144ceb236ae.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "20d32ca4-f01c-4570-991d-64db9a84647b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/20d32ca4-f01c-4570-991d-64db9a84647b.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "d79f11c3-bd18-4940-a2de-e40c7ba4d83c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d79f11c3-bd18-4940-a2de-e40c7ba4d83c.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "1f3ada65-2b63-4fd4-8403-5833fac2cb75",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1f3ada65-2b63-4fd4-8403-5833fac2cb75.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "knucklemaw",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "7ef7dc61-bbcf-4ff3-937b-552bf2d34e6f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/7ef7dc61-bbcf-4ff3-937b-552bf2d34e6f.png",
+      "resourcePath": "com/runie/creatures/knucklemaw/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "66c45e57-9ee4-4cfd-983f-1c7f3619a2ed",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/66c45e57-9ee4-4cfd-983f-1c7f3619a2ed.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "697256fa-eb4c-453c-8c1c-cc5c3152d1f0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/697256fa-eb4c-453c-8c1c-cc5c3152d1f0.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "5f7616bd-81d8-4e2a-a490-104c5e78e133",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5f7616bd-81d8-4e2a-a490-104c5e78e133.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "bd29b7d0-c6ed-4354-bf9c-99f4c94ba844",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/bd29b7d0-c6ed-4354-bf9c-99f4c94ba844.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "3569f689-707f-4919-abd8-35b640c64981",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3569f689-707f-4919-abd8-35b640c64981.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "tidecoil",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "dde61638-bf05-4405-9880-c042567ee435",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/dde61638-bf05-4405-9880-c042567ee435.png",
+      "resourcePath": "com/runie/creatures/tidecoil/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "e74e6164-de1c-48c2-b1be-39ce8271fd8b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e74e6164-de1c-48c2-b1be-39ce8271fd8b.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "a638881b-42e5-4b96-b8fc-ac4ef9520b2d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a638881b-42e5-4b96-b8fc-ac4ef9520b2d.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "0ca95b13-9add-44f6-a07c-590cfada6e45",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0ca95b13-9add-44f6-a07c-590cfada6e45.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "7feaa1ce-9566-4d1d-a4a2-e1e092baad52",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/7feaa1ce-9566-4d1d-a4a2-e1e092baad52.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "6abb5a55-5b83-4ce6-8e15-94d80c61ef12",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6abb5a55-5b83-4ce6-8e15-94d80c61ef12.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "cindermaw",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "bf65cfa2-1d0b-4b34-b8c0-c6260464d6be",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/bf65cfa2-1d0b-4b34-b8c0-c6260464d6be.png",
+      "resourcePath": "com/runie/creatures/cindermaw/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "d6600d28-c2aa-4aab-b518-1b51f325bc65",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d6600d28-c2aa-4aab-b518-1b51f325bc65.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "63c20731-abe7-4189-b3de-7d930597f2ae",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/63c20731-abe7-4189-b3de-7d930597f2ae.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "6addaf16-0e8b-4225-a713-0ccdb4a5850a",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6addaf16-0e8b-4225-a713-0ccdb4a5850a.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "a4467587-ecc6-4de9-9564-bcce732f1260",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/a4467587-ecc6-4de9-9564-bcce732f1260.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "0cf2e75f-d889-4321-bcce-09506505afbb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0cf2e75f-d889-4321-bcce-09506505afbb.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "grithstone",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "1c7d9fc8-e7b6-46ab-87af-6da59bc955c4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1c7d9fc8-e7b6-46ab-87af-6da59bc955c4.png",
+      "resourcePath": "com/runie/creatures/grithstone/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "d801a504-ea8e-4c1e-904d-b46f237e5b7c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d801a504-ea8e-4c1e-904d-b46f237e5b7c.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "df5f757a-82ef-448a-97ae-93896564db53",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/df5f757a-82ef-448a-97ae-93896564db53.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "104ed30d-d273-41c8-b4f2-cc424ccb3348",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/104ed30d-d273-41c8-b4f2-cc424ccb3348.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "3edb1f4d-1096-48e4-abe4-f3c5255629c6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3edb1f4d-1096-48e4-abe4-f3c5255629c6.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "4a28511e-7e38-4a76-b622-8ba0cb1b7c66",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4a28511e-7e38-4a76-b622-8ba0cb1b7c66.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "emberwyrmling",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "e25b064c-a677-4cdf-82c6-fee581099790",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e25b064c-a677-4cdf-82c6-fee581099790.png",
+      "resourcePath": "com/runie/creatures/emberwyrmling/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b4e1ee66-7a27-4b37-a9f5-13999f8b8f5e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b4e1ee66-7a27-4b37-a9f5-13999f8b8f5e.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "8806e3e7-0f9d-4a94-becd-99851be64663",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8806e3e7-0f9d-4a94-becd-99851be64663.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "57766eee-e516-4fd2-abe8-c5522869a6ca",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/57766eee-e516-4fd2-abe8-c5522869a6ca.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "8e5df5a0-9929-4575-800f-69ed715db4b5",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/8e5df5a0-9929-4575-800f-69ed715db4b5.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "f8c3fad1-15d4-4d84-845c-68031b45cfb5",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f8c3fad1-15d4-4d84-845c-68031b45cfb5.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "basilyre",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "3746efa1-294d-4838-b507-9b6cf488a543",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3746efa1-294d-4838-b507-9b6cf488a543.png",
+      "resourcePath": "com/runie/creatures/basilyre/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "cdbe6003-9472-4632-81d1-7e7e4b83c8c6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/cdbe6003-9472-4632-81d1-7e7e4b83c8c6.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "90be14cc-5c13-450b-b732-f0b9be0a0868",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/90be14cc-5c13-450b-b732-f0b9be0a0868.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "1fce78bf-1ad8-4149-80a0-6337713562a4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1fce78bf-1ad8-4149-80a0-6337713562a4.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "fa9a2a48-860f-4091-a73e-d6c5e0a6ab78",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/fa9a2a48-860f-4091-a73e-d6c5e0a6ab78.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "2e12beab-7f6f-42bb-98a4-2355cc118458",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2e12beab-7f6f-42bb-98a4-2355cc118458.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "thornkarr",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "4f1ba65d-212b-42d2-89ad-3cf65bf838eb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4f1ba65d-212b-42d2-89ad-3cf65bf838eb.png",
+      "resourcePath": "com/runie/creatures/thornkarr/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "4fc0fbac-4657-448b-8356-41b63d3410fb",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4fc0fbac-4657-448b-8356-41b63d3410fb.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "c15b7c1e-d53e-4d42-bd34-5e5e67f92c8b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/c15b7c1e-d53e-4d42-bd34-5e5e67f92c8b.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "e8d21aea-cd2a-4de1-9acd-c0ca55fa9fb4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e8d21aea-cd2a-4de1-9acd-c0ca55fa9fb4.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "d2370b59-fe40-49d1-9fef-68fb2a0f11cf",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d2370b59-fe40-49d1-9fef-68fb2a0f11cf.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "3a844ff6-967c-4e0c-8ab6-357f45bfa374",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3a844ff6-967c-4e0c-8ab6-357f45bfa374.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "zalthisk",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "22d16c99-efe9-40f0-84b1-fc9ae1585a71",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/22d16c99-efe9-40f0-84b1-fc9ae1585a71.png",
+      "resourcePath": "com/runie/creatures/zalthisk/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "3c88dc91-2ae4-4806-a220-f00d6bb7a7c5",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3c88dc91-2ae4-4806-a220-f00d6bb7a7c5.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "ec9ffdc2-3285-4365-9137-f9b360ed7c74",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ec9ffdc2-3285-4365-9137-f9b360ed7c74.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "5e252961-cb09-4311-b815-fddd8ac0e9b2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5e252961-cb09-4311-b815-fddd8ac0e9b2.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "21b6ec25-d970-4b4b-a787-97e870f5a573",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/21b6ec25-d970-4b4b-a787-97e870f5a573.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "0189420b-f009-4ac1-9d5e-d122a573e518",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0189420b-f009-4ac1-9d5e-d122a573e518.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "pyrgeist",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "9e10165b-6498-4220-81cb-6c4c6515c306",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/9e10165b-6498-4220-81cb-6c4c6515c306.png",
+      "resourcePath": "com/runie/creatures/pyrgeist/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "e8da945e-431b-4004-8da9-1a9291200871",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e8da945e-431b-4004-8da9-1a9291200871.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "14ca0185-9280-4dde-bca2-553d9ef3ec35",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/14ca0185-9280-4dde-bca2-553d9ef3ec35.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "efd68f2d-2a28-4b27-8587-9a49eabefbd1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/efd68f2d-2a28-4b27-8587-9a49eabefbd1.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "ab8f57a4-caad-4f0b-b4cd-24f1b4310799",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ab8f57a4-caad-4f0b-b4cd-24f1b4310799.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "3e5dc1c6-c917-4920-8b73-7d94cfeb6c14",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3e5dc1c6-c917-4920-8b73-7d94cfeb6c14.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "dredgemaw",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "68c762cb-7da7-453b-8329-f130c794c99b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/68c762cb-7da7-453b-8329-f130c794c99b.png",
+      "resourcePath": "com/runie/creatures/dredgemaw/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "9f7f58e0-77e2-40fe-8de5-9802efe34156",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/9f7f58e0-77e2-40fe-8de5-9802efe34156.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "050c92cf-d2f5-45c2-828d-4f439bb21dcf",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/050c92cf-d2f5-45c2-828d-4f439bb21dcf.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f327fd5e-9f19-4519-8605-4e4fe775bbfd",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f327fd5e-9f19-4519-8605-4e4fe775bbfd.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "55691b8c-2ce3-4f65-a0e1-3cddfd214c5c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/55691b8c-2ce3-4f65-a0e1-3cddfd214c5c.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "2e395425-b6c6-4118-9b44-1a336ebfa57a",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2e395425-b6c6-4118-9b44-1a336ebfa57a.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "duskrend",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "905233e0-4d9e-4e9a-bbca-3c5723081d5a",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/905233e0-4d9e-4e9a-bbca-3c5723081d5a.png",
+      "resourcePath": "com/runie/creatures/duskrend/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "82bc6e89-7b65-4d57-a8a9-6cd8d6c1a949",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/82bc6e89-7b65-4d57-a8a9-6cd8d6c1a949.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "50518546-5bd5-48bf-9c44-e3ac6f0ec0ee",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/50518546-5bd5-48bf-9c44-e3ac6f0ec0ee.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f80c8d1a-fa5f-45ff-9e96-71573e59e5c4",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f80c8d1a-fa5f-45ff-9e96-71573e59e5c4.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "5181f411-551f-43bb-8c34-07af6c4fff80",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5181f411-551f-43bb-8c34-07af6c4fff80.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "4452afc5-f9ba-4f9e-8046-7a912f7cbff7",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4452afc5-f9ba-4f9e-8046-7a912f7cbff7.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "talonrend",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "38150681-485e-439e-9531-edd289928280",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/38150681-485e-439e-9531-edd289928280.png",
+      "resourcePath": "com/runie/creatures/talonrend/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "3d7a1bc5-dbf8-4cfd-abdc-24a57ffc2107",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3d7a1bc5-dbf8-4cfd-abdc-24a57ffc2107.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "295082de-7571-489c-8f3b-cdcdca29e6ae",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/295082de-7571-489c-8f3b-cdcdca29e6ae.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "06c97beb-c296-4b39-8192-7182517dbbb3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/06c97beb-c296-4b39-8192-7182517dbbb3.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "042ba0c1-c220-4053-a4fa-33470c6af96b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/042ba0c1-c220-4053-a4fa-33470c6af96b.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "b4491494-8a56-4f7b-a302-21638f050067",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b4491494-8a56-4f7b-a302-21638f050067.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "nechrallis",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "570524c1-e698-469d-b387-38f3141bf746",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/570524c1-e698-469d-b387-38f3141bf746.png",
+      "resourcePath": "com/runie/creatures/nechrallis/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "b16b979b-5f34-466f-b484-bc8bf59d13f9",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b16b979b-5f34-466f-b484-bc8bf59d13f9.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "d39192fb-ddc8-4796-8f4e-d4f636875e5a",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d39192fb-ddc8-4796-8f4e-d4f636875e5a.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "1a69162e-da6a-42d6-8be6-daefc01616e6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1a69162e-da6a-42d6-8be6-daefc01616e6.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "1e26bca5-027b-42f9-8d7c-03109442e249",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1e26bca5-027b-42f9-8d7c-03109442e249.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "1a8398a3-313f-4bd1-89db-91414af85d45",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1a8398a3-313f-4bd1-89db-91414af85d45.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "umbrask",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "31733468-0bed-4059-9700-708e0654bb01",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/31733468-0bed-4059-9700-708e0654bb01.png",
+      "resourcePath": "com/runie/creatures/umbrask/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "894df587-50aa-4be9-b32f-135e505dfc67",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/894df587-50aa-4be9-b32f-135e505dfc67.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "b0963d5b-398b-4c28-bc32-916704009547",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b0963d5b-398b-4c28-bc32-916704009547.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "22f030ec-b9a0-4787-842a-65b67a423254",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/22f030ec-b9a0-4787-842a-65b67a423254.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "881af369-1f5b-4245-a788-fffaa182fdfd",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/881af369-1f5b-4245-a788-fffaa182fdfd.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "b9faf813-312f-4499-a46a-7646f10bfb1f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b9faf813-312f-4499-a46a-7646f10bfb1f.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vornathax",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "ec0f276e-2159-4e58-bec7-7c9a430777e0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ec0f276e-2159-4e58-bec7-7c9a430777e0.png",
+      "resourcePath": "com/runie/creatures/vornathax/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "6fd3a364-1cef-4342-910c-562c336bff94",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6fd3a364-1cef-4342-910c-562c336bff94.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "60bf1d9f-26fe-4930-8bf8-7f72bc9ec813",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/60bf1d9f-26fe-4930-8bf8-7f72bc9ec813.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f5b8c39f-d548-4245-8e3e-bf00ac2418c0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f5b8c39f-d548-4245-8e3e-bf00ac2418c0.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "0e4ce184-990c-464b-99b0-071ae2c814a7",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0e4ce184-990c-464b-99b0-071ae2c814a7.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "ba504a40-41ed-4229-9715-89654ad04cc0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/ba504a40-41ed-4229-9715-89654ad04cc0.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "coilfen",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "5416dfaa-6718-4906-aaf6-0a19e7dab307",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5416dfaa-6718-4906-aaf6-0a19e7dab307.png",
+      "resourcePath": "com/runie/creatures/coilfen/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "aab83b51-b2b2-4aef-b7af-f7630f8182c3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/aab83b51-b2b2-4aef-b7af-f7630f8182c3.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "cd887a0e-e527-46b9-b407-b8c167de6cb2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/cd887a0e-e527-46b9-b407-b8c167de6cb2.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "1a17dc77-7f68-42d2-920e-1adcf8349576",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1a17dc77-7f68-42d2-920e-1adcf8349576.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "0a4dfa2e-1c20-475c-9a37-7cc63822d5c8",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/0a4dfa2e-1c20-475c-9a37-7cc63822d5c8.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "dbfd3159-8789-45d6-9a16-42088ba98271",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/dbfd3159-8789-45d6-9a16-42088ba98271.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "vaelgrim",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "2317fd82-d0ad-4b4b-ae6f-8e8509fc755c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2317fd82-d0ad-4b4b-ae6f-8e8509fc755c.png",
+      "resourcePath": "com/runie/creatures/vaelgrim/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "2ba24dbc-9d94-4560-b5c1-b2ac88ca9234",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2ba24dbc-9d94-4560-b5c1-b2ac88ca9234.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "71a059ea-6574-47d5-b666-a779836e4745",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/71a059ea-6574-47d5-b666-a779836e4745.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "e1230e5f-e1a2-4fa2-94dc-4caf209fbf95",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e1230e5f-e1a2-4fa2-94dc-4caf209fbf95.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "1bbcceb3-2a35-4bec-a270-a0347593ac7d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1bbcceb3-2a35-4bec-a270-a0347593ac7d.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "c2ea1384-5797-402a-acf4-32b349b70c56",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/c2ea1384-5797-402a-acf4-32b349b70c56.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "solenfyre",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "893ed121-eb58-4f02-b045-0b3ecf0946e8",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/893ed121-eb58-4f02-b045-0b3ecf0946e8.png",
+      "resourcePath": "com/runie/creatures/solenfyre/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "4f99c898-ede9-4977-8e82-dcf3eae84d3d",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/4f99c898-ede9-4977-8e82-dcf3eae84d3d.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "43477363-ae47-4838-b0d0-93c35c7951e5",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/43477363-ae47-4838-b0d0-93c35c7951e5.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "3441c23d-2276-4303-b3bf-bc0238aa6a13",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3441c23d-2276-4303-b3bf-bc0238aa6a13.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "e18b4740-8b7a-4fd0-9d09-5b2402e7ec74",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e18b4740-8b7a-4fd0-9d09-5b2402e7ec74.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "198869fd-7a21-4ae5-b464-7de31d6edaf6",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/198869fd-7a21-4ae5-b464-7de31d6edaf6.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "trivandire",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "5aee0363-1723-4794-bd58-88fef0ce223b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5aee0363-1723-4794-bd58-88fef0ce223b.png",
+      "resourcePath": "com/runie/creatures/trivandire/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "99fee2a2-ad7e-4e72-9af2-c8f1c8ea5cdf",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/99fee2a2-ad7e-4e72-9af2-c8f1c8ea5cdf.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "d9d14ff2-3768-4901-b558-0835178d4678",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d9d14ff2-3768-4901-b558-0835178d4678.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "f47093ab-0a59-45ec-a93e-ba8a927aea47",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/f47093ab-0a59-45ec-a93e-ba8a927aea47.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "e929f13d-09af-40fc-948d-ec0bf0dfad98",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/e929f13d-09af-40fc-948d-ec0bf0dfad98.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "68559798-d85d-400f-96a8-f957bb4955b9",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/68559798-d85d-400f-96a8-f957bb4955b9.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "abyzarok",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "42392764-b344-4731-b358-ff40084e496e",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/42392764-b344-4731-b358-ff40084e496e.png",
+      "resourcePath": "com/runie/creatures/abyzarok/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "fc09096d-e9b9-475e-9553-aab0920930ef",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/fc09096d-e9b9-475e-9553-aab0920930ef.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "d52a039a-42a3-4050-8dde-78b4963642b0",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/d52a039a-42a3-4050-8dde-78b4963642b0.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "2c78522a-0ee2-4018-8a0e-f8dc2fc736a2",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/2c78522a-0ee2-4018-8a0e-f8dc2fc736a2.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "c2de8ed3-7a34-4dca-a304-a87c245897e3",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/c2de8ed3-7a34-4dca-a304-a87c245897e3.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "6ffc560c-77b2-4961-8cb3-beb47cb5337b",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/6ffc560c-77b2-4961-8cb3-beb47cb5337b.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "malgrave",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "fc1dc9e2-89d2-4b19-b2b4-3195ca52643f",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/fc1dc9e2-89d2-4b19-b2b4-3195ca52643f.png",
+      "resourcePath": "com/runie/creatures/malgrave/art/pixel/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "kawaii",
+      "stage": 1,
+      "imageId": "cac9db63-6be6-450b-bfa9-6306109f695c",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/cac9db63-6be6-450b-bfa9-6306109f695c.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/kawaii/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "kawaii",
+      "stage": 2,
+      "imageId": "5df2a531-d2c1-4075-b55e-cc1639c3e3ce",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/5df2a531-d2c1-4075-b55e-cc1639c3e3ce.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/kawaii/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "kawaii",
+      "stage": 3,
+      "imageId": "44b2b3e7-1c99-427c-b373-7a12aa668d84",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/44b2b3e7-1c99-427c-b373-7a12aa668d84.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/kawaii/stage3/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "pixel",
+      "stage": 1,
+      "imageId": "3419ba96-7bad-4a26-bd3b-e9bba8b52238",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/3419ba96-7bad-4a26-bd3b-e9bba8b52238.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/pixel/stage1/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "pixel",
+      "stage": 2,
+      "imageId": "1ea9e98f-4911-45af-a667-8f5044d3c0ca",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/1ea9e98f-4911-45af-a667-8f5044d3c0ca.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/pixel/stage2/idle/frame_000.png"
+    },
+    {
+      "creatureId": "ythrax",
+      "style": "pixel",
+      "stage": 3,
+      "imageId": "b7c4105d-a96b-4148-9bc2-c3d17e56d0c1",
+      "url": "https://hyperagent.com/api/files/usergenerated/threads/cmrp4d2oe0o6107ad0k8egpg2/images/b7c4105d-a96b-4148-9bc2-c3d17e56d0c1.png",
+      "resourcePath": "com/runie/creatures/ythrax/art/pixel/stage3/idle/frame_000.png"
+    }
+  ]
+}

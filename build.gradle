@@ -1,0 +1,87 @@
+/*
+ * Runie — build script.
+ *
+ * Follows the runelite/example-plugin template conventions.
+ * HARD RULE (architecture §0.3 / §14): NO dependencies beyond the template set.
+ * RuneLite's bundled Gson + Guice are consumed via @Inject at runtime.
+ */
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenLocal()
+    maven {
+        url = 'https://repo.runelite.net'
+    }
+    mavenCentral()
+}
+
+def runeLiteVersion = 'latest.release'
+
+dependencies {
+    compileOnly group: 'net.runelite', name: 'client', version: runeLiteVersion
+
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+    testCompileOnly 'org.projectlombok:lombok:1.18.30'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+    testImplementation 'junit:junit:4.13.2'
+    testImplementation group: 'net.runelite', name: 'client', version: runeLiteVersion
+}
+
+group = 'com.runie'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_11
+    targetCompatibility = JavaVersion.VERSION_11
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+}
+
+tasks.named('wrapper') {
+    // some CI sandboxes cannot HEAD services.gradle.org through their proxy
+    validateDistributionUrl = false
+}
+
+// Headless review mockups (Epic 6/7): paints the real overlays + panel into
+// PNGs without a client. Not part of `test`; run explicitly.
+tasks.register('renderMockups', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.runie.tools.RenderMockups'
+    systemProperty 'java.awt.headless', 'true'
+    args providers.gradleProperty('mockupOut').getOrElse("${rootDir}/../runie_slice_shots")
+}
+
+// Dev client launcher: `./gradlew run` starts a development RuneLite client
+// with Runie loaded as a builtin plugin (see RuniePluginTest.main()).
+// This is the reliable alternative to IntelliJ's ad-hoc ":main()" run config,
+// which hides the real exception behind "finished with non-zero exit value 1".
+tasks.register('run', JavaExec) {
+    group = 'application'
+    description = 'Starts a development RuneLite client with Runie loaded (requires a display).'
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'com.runie.RuniePluginTest'
+    // --developer-mode is required for ExternalPluginManager.loadBuiltin()
+    // plugins to be loaded by the client.
+    args '--developer-mode'
+    jvmArgs '-ea'
+    // Surface the real stacktrace in the console instead of Gradle's
+    // teardown summary.
+    standardOutput = System.out
+    errorOutput = System.err
+}
+
+tasks.withType(Test).configureEach {
+    useJUnit()
+    testLogging {
+        events 'passed', 'skipped', 'failed'
+        exceptionFormat 'full'
+    }
+}
