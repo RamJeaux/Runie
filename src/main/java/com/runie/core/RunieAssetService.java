@@ -55,20 +55,24 @@ public class RunieAssetService
 	private final AssetLoader assetLoader;
 	private final ScheduledExecutorService executor;
 	private final Fetcher fetcher;
-	private final Gson gson = new Gson();
+	private final Gson gson;
 
 	@Inject
-	public RunieAssetService(AssetLoader assetLoader, ScheduledExecutorService executor, OkHttpClient http)
+	public RunieAssetService(AssetLoader assetLoader, ScheduledExecutorService executor,
+		OkHttpClient http, Gson gson)
 	{
-		this(assetLoader, executor, new OkHttpFetcher(http));
+		// Plugin Hub requires the client's shared, injected Gson (never a fresh instance).
+		this(assetLoader, executor, new OkHttpFetcher(http), gson);
 	}
 
-	/** Test seam: supply a fake Fetcher (and typically a same-thread executor). */
-	public RunieAssetService(AssetLoader assetLoader, ScheduledExecutorService executor, Fetcher fetcher)
+	/** Test seam: supply a fake Fetcher + Gson (and typically a same-thread executor). */
+	public RunieAssetService(AssetLoader assetLoader, ScheduledExecutorService executor,
+		Fetcher fetcher, Gson gson)
 	{
 		this.assetLoader = assetLoader;
 		this.executor = executor;
 		this.fetcher = fetcher;
+		this.gson = gson;
 	}
 
 	/**

@@ -2,6 +2,7 @@ package com.runie.core;
 
 import com.runie.assets.AnimationClip;
 import com.runie.assets.ArtStyle;
+import com.google.gson.Gson;
 import com.runie.assets.AssetLoader;
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayOutputStream;
@@ -65,7 +66,7 @@ public class RunieAssetServiceTest
 	public void downloadsCachesAndIsIdempotent() throws IOException
 	{
 		byte[] png = png();
-		RunieAssetService svc = new RunieAssetService(loader, executor, url -> png);
+		RunieAssetService svc = new RunieAssetService(loader, executor, url -> png, new Gson());
 		Path cache = Files.createTempDirectory("runie-dl-test");
 
 		int downloaded = svc.syncNow(cache, null, null);
@@ -85,7 +86,7 @@ public class RunieAssetServiceTest
 	@Test
 	public void rejectsCorruptDownloadsAndRetriesNextLaunch() throws IOException
 	{
-		RunieAssetService svc = new RunieAssetService(loader, executor, url -> "definitely not a png".getBytes());
+		RunieAssetService svc = new RunieAssetService(loader, executor, url -> "definitely not a png".getBytes(), new Gson());
 		Path cache = Files.createTempDirectory("runie-dl-bad");
 
 		int downloaded = svc.syncNow(cache, null, null);
@@ -97,7 +98,7 @@ public class RunieAssetServiceTest
 	public void assetLoaderResolvesDownloadedArtFromCache() throws IOException
 	{
 		byte[] png = png();
-		RunieAssetService svc = new RunieAssetService(loader, executor, url -> png);
+		RunieAssetService svc = new RunieAssetService(loader, executor, url -> png, new Gson());
 		Path cache = Files.createTempDirectory("runie-dl-load");
 		svc.syncNow(cache, null, null);
 
